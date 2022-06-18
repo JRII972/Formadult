@@ -4,7 +4,6 @@ namespace formAdult;
 
 require_once('handler/metaboxe.php');
 require_once('handler/formateur.php');
-require_once('handler/formation.php');
 require_once('handler/taxonomie.php');
 
 
