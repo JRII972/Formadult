@@ -1,0 +1,18 @@
+s:746:"<p>Vous pouvez désactiver la zone de recherche du site et activer les icônes/liens vers les réseaux sociaux à la place.<br />
+Pour configurer les icônes, entrez une liste délimitée dans le champ « Liste des icônes réseaux sociaux » ci-dessous.<br />
+Cela devrait être dans le format :</p>
+
+<p>url|title|icon</p>
+
+<p>Par exemple :</p>
+
+<pre>
+https://example.com/course/search.php|Search Moodle|fa-search
+https://facebook.com/|Facebook|fa-facebook-square
+https://twitter.com/|Twitter|fa-twitter-square
+https://instagram.com|Instagram|fa-instagram
+https://example.com|My Web|fa-globe
+</pre>
+
+<p>Vous trouverez la liste complète des icônes de la police Awesome<a href="https://fortawesome.github.io/Font-Awesome/icons/">ici</a>.</p>
+";

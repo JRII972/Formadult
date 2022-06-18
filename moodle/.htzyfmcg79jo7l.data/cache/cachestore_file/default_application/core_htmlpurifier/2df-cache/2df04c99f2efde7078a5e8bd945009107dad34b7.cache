@@ -1,0 +1,11 @@
+s:619:"<p>Les menus d'outils (navbar) et les menus supérieurs (en-tête supérieur) peuvent être restreints en fonction de champs de profil personnalisés (facultatif). Pour ajouter une restriction, entrer le nom du champ de profil et la valeur attendue. La structure du menu suit le format commun de Moodle :<br /></p>
+
+<pre>
+Moodle community|https://moodle.org
+-Moodle free support|https://moodle.org/support
+-Moodle development|https://moodle.org/development
+--Moodle Docs|http://docs.moodle.org|Moodle Docs
+--German Moodle Docs|http://docs.moodle.org/de|Documentation en Allemand|de
+Moodle.com|http://moodle.com/
+</pre>
+";

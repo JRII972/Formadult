@@ -1,0 +1,3 @@
+s:686:"<p>Vous pouvez contrôler ici le comportement réactif de votre site (quels éléments apparaissent sur des écrans de différentes tailles). <br />
+    Par défaut, la plupart des éléments non essentiels sont masqués sur les appareils mobiles, étant configurés pour n'apparaître que sur des écrans plus grands. <br />Vous pouvez faire apparaître des éléments sur des écrans plus petits en choisissant de les afficher sur « Très petits » ou « Petits écrans ». <br />Pour mieux comprendre le fonctionnement de ces paramètres, veuillez consulter la documentation de Bootstrap 4 : <br /> <br /> https://getbootstrap.com/docs/4.5/utilities/display/ <br /> <br /></p>
+";

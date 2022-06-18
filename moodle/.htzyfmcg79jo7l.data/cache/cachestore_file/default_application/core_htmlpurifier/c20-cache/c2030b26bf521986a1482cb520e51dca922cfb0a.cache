@@ -1,0 +1,11 @@
+s:585:"<p>Vous pouvez configurer les liens à afficher dans un menu d'outils (dans la barre de navigation principale).
+Le format est similaire à celui utilisé pour les menus personnalisés de Moodle, mais vous permet d'ajouter des icônes (favicon) aux éléments de menu :</p>
+
+<pre>
+&lt;span class="fa fa-video-camera"&gt;&lt;/span&gt; Record Screen|http://google.co.uk|Record Screen
+&lt;span class="fa fa-picture-o"&gt;&lt;/span&gt; ThinkStock|http://google.co.uk|ThinkStock
+&lt;span class="fa fa-clock-o"&gt;&lt;/span&gt; Exam Clock|http://google.co.uk|Exam Clock
+</pre>
+
+<p><br /></p>
+";
