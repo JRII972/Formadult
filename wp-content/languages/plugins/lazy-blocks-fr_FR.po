@@ -1,0 +1,234 @@
+# Translation of Plugins - Custom Blocks Constructor &#8211; Lazy Blocks - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Custom Blocks Constructor &#8211; Lazy Blocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-02 12:48:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Custom Blocks Constructor &#8211; Lazy Blocks - Stable (latest release)\n"
+
+#: controls/email/index.php:23
+msgid "Email"
+msgstr "E-mail"
+
+#: controls/toggle/index.php:23
+msgid "Toggle"
+msgstr "Permuter"
+
+#: controls/file/index.php:23
+msgid "File"
+msgstr "Fichier"
+
+#: controls/textarea/index.php:23
+msgid "Text Area"
+msgstr "Zone de texte"
+
+#: controls/number/index.php:23
+msgid "Number"
+msgstr "Nombre"
+
+#: controls/radio/index.php:23
+msgid "Radio"
+msgstr "Bouton radio"
+
+#: controls/color/index.php:30
+msgid "Color Picker"
+msgstr "Sélecteur de couleur"
+
+#: controls/text/index.php:23
+msgid "Text"
+msgstr "Texte"
+
+#: controls/code_editor/index.php:23
+msgid "Code Editor"
+msgstr "Éditeur de code"
+
+#: controls/checkbox/index.php:23
+msgid "Checkbox"
+msgstr "Case à cocher"
+
+#: controls/range/index.php:23
+msgid "Range"
+msgstr "Plage"
+
+#: controls/image/index.php:23
+msgid "Image"
+msgstr "Image"
+
+#: controls/url/index.php:23
+msgid "URL"
+msgstr "URL"
+
+#: controls/repeater/index.php:23
+msgid "Repeater"
+msgstr "Répéteur"
+
+#: controls/gallery/index.php:23
+msgid "Gallery"
+msgstr "Galerie"
+
+#: controls/rich_text/index.php:23
+msgid "Rich Text (WYSIWYG)"
+msgstr "Texte enrichi (WYSIWYG)"
+
+#: classes/class-tools.php:252
+msgid "Import file empty"
+msgstr "Importer un fichier vide"
+
+#: classes/class-tools.php:241
+msgid "Incorrect file type"
+msgstr "Type de fichier incorrect"
+
+#: classes/class-tools.php:225
+msgid "No file selected"
+msgstr "Aucun fichier sélectionné"
+
+#: classes/class-controls.php:44
+msgid "Advanced"
+msgstr "Avancé"
+
+#: classes/class-controls.php:43
+msgid "Choice"
+msgstr "Choix"
+
+#: classes/class-controls.php:42
+msgid "Content"
+msgstr "Contenu"
+
+#: classes/class-controls.php:41
+msgid "Basic"
+msgstr "Basique"
+
+#. translators: %1$ - post title.
+#: classes/class-blocks.php:464
+msgid "Export “%1$s”"
+msgstr "Exporter « %1$s »"
+
+#: controls/select/index.php:23
+msgid "Select"
+msgstr "Sélectionner"
+
+#: controls/classic_editor/index.php:23
+msgid "Classic Editor (WYSIWYG)"
+msgstr "Éditeur classique (WYSIWYG)"
+
+#: controls/date_time/index.php:23
+msgid "Date Time Picker"
+msgstr "Sélecteur de date et heure"
+
+#: controls/password/index.php:23
+msgid "Password"
+msgstr "Mot de passe"
+
+#: controls/inner_blocks/index.php:23
+msgid "Inner Blocks"
+msgstr "Blocs internes"
+
+#. translators: %s - number of templates.
+#: classes/class-tools.php:311
+msgid "Imported %s template"
+msgid_plural "Imported %s templates"
+msgstr[0] "Importé %s modèle"
+msgstr[1] "Importé %s modèles"
+
+#. translators: %s - number of blocks.
+#: classes/class-tools.php:291
+msgid "Imported %s block"
+msgid_plural "Imported %s blocks"
+msgstr[0] "Importé %s bloc"
+msgstr[1] "Importé %s blocs"
+
+#: classes/class-tools.php:235
+msgid "Error uploading file. Please try again"
+msgstr "Erreur de téléversement de fichier. Veuillez réessayer"
+
+#: classes/class-tools.php:48 classes/class-tools.php:49
+#: classes/class-tools.php:64
+msgid "Export / Import"
+msgstr "Exporter/importer"
+
+#: classes/class-dummy.php:132
+msgid "Example block that helps you to get started with Lazy Blocks plugin"
+msgstr "Bloc d’exemple qui vous aide à démarrer avec l’extension Lazy Blocks"
+
+#: classes/class-dummy.php:54
+msgid "Example Block"
+msgstr "Bloc d’exemple"
+
+#: classes/class-rest.php:158 classes/class-rest.php:181
+msgid "Sorry, you are not allowed to read Gutenberg blocks data as this user."
+msgstr "Désolé, vous n’êtes pas autorisés à lire les données des blocs Gutenberg en tant que cet utilisateur."
+
+#: classes/class-rest.php:154
+msgid "Sorry, you are not allowed to read Gutenberg blocks data."
+msgstr "Désolé, vous n’êtes pas autorisé à lire les données des blocs Gutenberg."
+
+#: classes/class-rest.php:241 classes/class-rest.php:357
+msgid "Render callback is not specified."
+msgstr "Render callback n’est pas spécifié."
+
+#: classes/class-rest.php:233
+msgid "Invalid block."
+msgstr "Bloc non valide."
+
+#: classes/class-rest.php:129
+msgid "Sorry, you are not allowed to read Gutenberg blocks of this post."
+msgstr "Désolé, vous n’êtes pas autorisés à lire les blocs Gutenberg de cette publication."
+
+#: classes/class-rest.php:133
+msgid "Sorry, you are not allowed to read Gutenberg blocks as this user."
+msgstr "Désolé, vous n’êtes pas autorisé à lire les blocs Gutenberg avec cet utilisateur."
+
+#: classes/class-admin.php:38 classes/class-admin.php:39
+msgid "Documentation"
+msgstr "Documentation"
+
+#. Description of the plugin
+msgid "Gutenberg blocks visual constructor. Custom meta fields or blocks with output without hard coding."
+msgstr "Constructeur visuel de blocs Gutenberg. Champs de méta personnalisés ou blocs avec sortie sans codage en dur."
+
+#. Author URI of the plugin
+msgid "https://nkdev.info/"
+msgstr "https://nkdev.info/"
+
+#. Author of the plugin
+msgid "nK"
+msgstr "nK"
+
+#: classes/class-blocks.php:467 classes/class-blocks.php:486
+msgid "Export"
+msgstr "Exporter"
+
+#: classes/class-templates.php:156
+msgid "Template"
+msgstr "Modèle"
+
+#: classes/class-templates.php:155
+msgid "Templates"
+msgstr "Modèles"
+
+#: classes/class-blocks.php:523
+msgid "Description"
+msgstr "Description"
+
+#: classes/class-controls.php:45
+msgid "Layout"
+msgstr "Mise en page"
+
+#: classes/class-blocks.php:522
+msgid "Category"
+msgstr "Catégorie"
+
+#: classes/class-blocks.php:520
+msgid "Icon"
+msgstr "Icône"
+
+#. Plugin Name of the plugin
+#: classes/class-admin.php:211 classes/class-blocks.php:312
+#: classes/class-blocks.php:1074
+msgid "Lazy Blocks"
+msgstr "Lazy Blocks"

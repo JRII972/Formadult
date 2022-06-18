@@ -1,0 +1,297 @@
+# Translation of WPForms - WPForms Form Locker in French (France)
+# This file is distributed under the same license as the WPForms - WPForms Form Locker package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-05 08:17:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-rc.4\n"
+"Language: fr\n"
+"Project-Id-Version: WPForms - WPForms Form Locker\n"
+
+#: wpforms-form-locker/wpforms-form-locker.php:110
+msgid "The WPForms Form Locker plugin has been deactivated because it requires WPForms v1.7.2.2 or later to work."
+msgstr "L’extension WPForms Form Locker a été désactivée car elle nécessite WPForms v1.6.8 ou plus récent pour fonctionner."
+
+#: wpforms-form-locker/src/Lockers/Email.php:331
+msgid "Alternately, you can copy and paste the following URL in your browser: "
+msgstr "Vous pouvez également copier et coller l’URL suivante dans votre navigateur : "
+
+#: wpforms-form-locker/src/Lockers/Email.php:330
+msgid "verify your email address"
+msgstr "vérifier votre adresse e-mail"
+
+#: wpforms-form-locker/src/Lockers/Email.php:329
+msgid "visit this link to"
+msgstr "visiter ce lien pour"
+
+#: wpforms-form-locker/src/Lockers/Email.php:328
+msgid "To confirm your email address and access the form, please "
+msgstr "Pour confirmer votre adresse e-mail et accéder au formulaire, veuillez "
+
+#: wpforms-form-locker/src/Lockers/Email.php:327
+msgid "Email address confirmation is required to access the form at"
+msgstr "Une confirmation d’adresse e-mail est nécessaire pour accéder au formulaire sur"
+
+#: wpforms-form-locker/src/Lockers/Email.php:322
+msgid "Email address confirmation"
+msgstr "Confirmation d’adresse e-mail"
+
+#: wpforms-form-locker/src/Lockers/Email.php:256
+msgid "Check your email inbox for verification link."
+msgstr "Vérifiez votre boîte de réception pour le lien de vérification."
+
+#: wpforms-form-locker/src/Lockers/Age.php:329
+msgid "Day"
+msgstr "Jour"
+
+#: wpforms-form-locker/src/Lockers/Age.php:327
+msgid "Month"
+msgstr "Mois"
+
+#: wpforms-form-locker/src/Lockers/Age.php:325
+msgid "Year"
+msgstr "Année"
+
+#: wpforms-form-locker/src/Lockers/Age.php:298
+msgid "Your age does not meet the criteria."
+msgstr "Votre âge ne correspond pas aux critères."
+
+#: wpforms-form-locker/src/Admin.php:587
+msgid "per year"
+msgstr "par année"
+
+#: wpforms-form-locker/src/Admin.php:586
+msgid "per month"
+msgstr "par mois"
+
+#: wpforms-form-locker/src/Admin.php:585
+msgid "per week"
+msgstr "par semaine"
+
+#: wpforms-form-locker/src/Admin.php:584
+msgid "per day"
+msgstr "par jour"
+
+#: wpforms-form-locker/src/Admin.php:552
+msgid "Email Field"
+msgstr "Champ d’e-mail"
+
+#: wpforms-form-locker/src/Admin.php:544
+msgid "Restrict by email address"
+msgstr "Restriction par adresse e-mail"
+
+#: wpforms-form-locker/src/Admin.php:535
+msgid "Restrict by IP address"
+msgstr "Restriction par adresse IP"
+
+#: wpforms-form-locker/src/Admin.php:525
+msgid "This option is disabled because due to your GDPR settings you opted to not store IP addresses."
+msgstr "Cette option est désactivée en raison de vos réglages RGPD car vous avez choisi de ne pas stocker les adresses IP."
+
+#: wpforms-form-locker/src/Admin.php:521
+msgid "Enable user entry limit"
+msgstr "Activer la limite d’entrée de compte"
+
+#: wpforms-form-locker/src/Admin.php:487
+msgid "Entry Limits & Restrictions"
+msgstr "Limites et restrictions d’entrée"
+
+#: wpforms-form-locker/src/Admin.php:486
+msgid "Limit the number of entries and restrict by email or IP address."
+msgstr "Limitez le nombre d’entrées et limitez-les par e-mail ou par adresse IP."
+
+#: wpforms-form-locker/src/Admin.php:478
+msgid "Enable total entry limit"
+msgstr "Activer la limite du total des entrées"
+
+#: wpforms-form-locker/src/Admin.php:454
+msgid "Form Restrictions"
+msgstr "Restrictions de formulaire"
+
+#: wpforms-form-locker/src/Admin.php:453
+msgid "Restrict form access to only those who meet your criteria."
+msgstr "Limitez l’accès aux formulaires uniquement aux personnes qui répondent à vos critères."
+
+#: wpforms-form-locker/src/Admin.php:445
+msgid "Logged in users only"
+msgstr "Comptes connectés uniquement"
+
+#: wpforms-form-locker/src/Admin.php:363
+msgid "Form Scheduling"
+msgstr "Planification de formulaire"
+
+#: wpforms-form-locker/src/Admin.php:362
+msgid "Accept form entries during a specific date/time period."
+msgstr "Accepter les entrées de formulaire pendant une période de date/heure spécifique."
+
+#: wpforms-form-locker/src/Admin.php:354
+msgid "Form scheduling"
+msgstr "Planification de formulaire"
+
+#: wpforms-form-locker/src/Admin.php:343
+msgid "This message is displayed to visitors above the email verification form."
+msgstr "Ce message est affiché aux visiteurs au-dessus du formulaire de vérification d’e-mail."
+
+#: wpforms-form-locker/src/Admin.php:328
+msgid "This message is displayed to visitors above the age verification form."
+msgstr "Ce message est affiché aux visiteurs au-dessus du formulaire de vérification d’âge."
+
+#: wpforms-form-locker/src/Admin.php:296
+msgid "Equal to"
+msgstr "Est égal à"
+
+#: wpforms-form-locker/src/Admin.php:295
+msgid "Maximum"
+msgstr "Maximum"
+
+#: wpforms-form-locker/src/Admin.php:294
+msgid "Minimum"
+msgstr "Minimum"
+
+#: wpforms-form-locker/src/Admin.php:277
+msgid "Criteria"
+msgstr "Critère"
+
+#: wpforms-form-locker/src/Admin.php:254
+#: wpforms-form-locker/src/Lockers/Email.php:203
+msgid "Email"
+msgstr "E-mail"
+
+#: wpforms-form-locker/src/Admin.php:253
+#: wpforms-form-locker/src/Lockers/Age.php:249
+msgid "Age"
+msgstr "Âge"
+
+#: wpforms-form-locker/src/Admin.php:248
+msgid "Type"
+msgstr "Type"
+
+#: wpforms-form-locker/src/Admin.php:239
+msgid "Form Verification"
+msgstr "Formulaire de vérification"
+
+#: wpforms-form-locker/src/Admin.php:238
+msgid "Require users to enter information before accessing the form."
+msgstr "Oblige les utilisateurs et utilisatrices à saisir des informations avant d’accéder au formulaire."
+
+#: wpforms-form-locker/src/Admin.php:230
+msgid "Enable verification"
+msgstr "Activer la vérification"
+
+#. translators: %d - field ID.
+#: wpforms-form-locker/src/Admin.php:197
+msgid "Field #%d"
+msgstr "Champ #%d"
+
+#: wpforms-form-locker/src/Lockers/UniqueAnswer.php:149
+#: wpforms-form-locker/src/Lockers/UniqueAnswer.php:166
+#: wpforms-form-locker/src/Lockers/UniqueAnswer.php:273
+msgid "The value must be unique."
+msgstr "La valeur doit être unique."
+
+#: wpforms-form-locker/src/Lockers/UniqueAnswer.php:147
+msgid "Unique Answer"
+msgstr "Réponse unique"
+
+#: wpforms-form-locker/src/Lockers/Age.php:262
+#: wpforms-form-locker/src/Lockers/Email.php:214
+#: wpforms-form-locker/src/Lockers/Password.php:152
+msgid "Submit"
+msgstr "Envoyer"
+
+#: wpforms-form-locker/src/Lockers/Age.php:261
+#: wpforms-form-locker/src/Lockers/Email.php:213
+#: wpforms-form-locker/src/Lockers/Password.php:151
+msgid "Sending..."
+msgstr "Envoi..."
+
+#: wpforms-form-locker/src/Lockers/Password.php:143
+msgid "The password is incorrect."
+msgstr "Le mot de passe ne correspond pas."
+
+#: wpforms-form-locker/src/Admin.php:468
+msgid "This message is displayed to logged out visitors in place of the form."
+msgstr "Ce message est affiché aux visiteurs non connectés à la place du formulaire."
+
+#: wpforms-form-locker/src/Admin.php:463
+msgid "Message"
+msgstr "Message"
+
+#: wpforms-form-locker/src/Admin.php:496 wpforms-form-locker/src/Admin.php:569
+msgid "Limit"
+msgstr "Limite"
+
+#: wpforms-form-locker/src/Admin.php:435 wpforms-form-locker/src/Admin.php:512
+#: wpforms-form-locker/src/Admin.php:605
+msgid "This message is displayed to visitors when the form is closed."
+msgstr "Ce message est affiché aux visiteurs quand le formulaire est fermé."
+
+#: wpforms-form-locker/src/Admin.php:430 wpforms-form-locker/src/Admin.php:507
+msgid "Closed Message"
+msgstr "Message fermé"
+
+#: wpforms-form-locker/src/Admin.php:419
+msgid "Clear End Time"
+msgstr "Effacer l’heure de fin"
+
+#: wpforms-form-locker/src/Admin.php:415
+msgid "End Time"
+msgstr "Heure de fin"
+
+#: wpforms-form-locker/src/Admin.php:406
+msgid "Clear End Date"
+msgstr "Effacer la date de fin"
+
+#: wpforms-form-locker/src/Admin.php:402
+msgid "End Date"
+msgstr "Date de fin"
+
+#: wpforms-form-locker/src/Admin.php:391
+msgid "Clear Start Time"
+msgstr "Effacer l’heure de début"
+
+#: wpforms-form-locker/src/Admin.php:387
+msgid "Start Time"
+msgstr "Heure de début"
+
+#: wpforms-form-locker/src/Admin.php:378
+msgid "Clear Start Date"
+msgstr "Effacer la date de début"
+
+#: wpforms-form-locker/src/Admin.php:374
+msgid "Start Date"
+msgstr "Date de début"
+
+#: wpforms-form-locker/src/Admin.php:313
+msgid "This message is displayed to visitors above the password form."
+msgstr "Ce message est affiché aux visiteurs au dessus du mot de passe du formulaire."
+
+#: wpforms-form-locker/src/Admin.php:308 wpforms-form-locker/src/Admin.php:323
+#: wpforms-form-locker/src/Admin.php:338 wpforms-form-locker/src/Admin.php:600
+msgid "Display Message"
+msgstr "Afficher le message"
+
+#: wpforms-form-locker/src/Admin.php:252 wpforms-form-locker/src/Admin.php:264
+#: wpforms-form-locker/src/Lockers/Password.php:138
+msgid "Password"
+msgstr "Mot de passe"
+
+#: wpforms-form-locker/src/Admin.php:173 wpforms-form-locker/src/Admin.php:220
+msgid "Form Locker"
+msgstr "Form Locker"
+
+#: wpforms-form-locker/src/Admin.php:154
+msgid "Check this option to require only unique answers for the current field."
+msgstr "Cochez cette option afin d’obliger des réponses uniques pour le champ actuel."
+
+#: wpforms-form-locker/src/Admin.php:153
+msgid "Require unique answer"
+msgstr "Nécessite une réponse unique"
+
+#. translators: %s - WPForms.com documentation page URL.
+#: wpforms-form-locker/wpforms-form-locker.php:84
+msgid "The WPForms Form Locker plugin has been deactivated. Your site is running an outdated version of PHP that is no longer supported and is not compatible with the Form Locker addon. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Read more</a> for additional information."
+msgstr "L’extension WPForms Form Locker a été désactivée. Votre site utilise une version obsolète de PHP qui n’est plus prise en charge et incompatible avec le module Form Locker. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Lire la suite</a> pour des informations complémentaires."

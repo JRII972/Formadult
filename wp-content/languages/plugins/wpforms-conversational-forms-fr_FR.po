@@ -1,0 +1,206 @@
+# Translation of WPForms - WPForms Conversational Forms in French (France)
+# This file is distributed under the same license as the WPForms - WPForms Conversational Forms package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-27 08:22:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: WPForms - WPForms Conversational Forms\n"
+
+#: wpforms-conversational-forms/src/Frontend.php:648
+msgid "<strong>Enter</strong> or <strong>&#x2B07;</strong> to go to the next field"
+msgstr "<strong>Entrée</strong> ou <strong>&#x2B07;</strong> pour aller sur le champ suivant"
+
+#. translators: %s - Permalink Settings page URL.
+#: wpforms-conversational-forms/src/Admin/Builder.php:122
+msgid "Heads up! To use Conversational Forms, please configure your site's permalinks on the WordPress <a href=\"%s\">Permalink Settings</a> page."
+msgstr "Attention ! Pour utiliser les formulaires de conversion, veuillez configurer les permaliens de votre site sur la page WordPress <a href=\"%s\">Réglages des permaliens</a>."
+
+#: wpforms-conversational-forms/src/Admin/Overview.php:55
+msgid "Conversational Form Preview"
+msgstr "Aperçu du formulaire de conversation"
+
+#: wpforms-conversational-forms/src/Admin/Overview.php:54
+msgid "View Conversational Form"
+msgstr "Afficher le formulaire de conversation"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:367
+msgid "View"
+msgstr "Afficher"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:344
+msgid "Upload Image"
+msgstr "Téléverser une image"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:237
+msgid "This is a Progress Bar style."
+msgstr "Ceci est un style de barre de  progression."
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:234
+msgid "Proportion"
+msgstr "Proportion"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:231
+msgid "Percentage"
+msgstr "Pourcentage"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:226
+msgid "Progress Bar"
+msgstr "Barre de progression"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:217
+msgid "This is the color of the submit button and the page background."
+msgstr "Ceci est la couleur du bouton d’envoi et de l’arrière-plan de la page."
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:213
+msgid "Color Scheme"
+msgstr "Jeu de couleurs"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:203
+msgid "Hide WPForms Branding"
+msgstr "Masquer la marque WPForms"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:194
+msgid "This is a custom logo displayed above the form title."
+msgstr "Ceci est un logo personnalisé affiché au dessus du titre du formulaire."
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:189
+msgid "Header Logo"
+msgstr "Logo d’en-tête"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:180
+msgid "This is the URL for your Conversational Form."
+msgstr "Ceci est l’URL de votre formulaire de conversation"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:174
+msgid "Permalink"
+msgstr "Permalien"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:165
+msgid "This content will display below the Conversational Form Title, above the form."
+msgstr "Ce contenu sera affiché sous le titre du formulaire de conversation, au dessus du formulaire."
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:160
+msgid "Message"
+msgstr "Message"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:152
+msgid "Conversational Form Title"
+msgstr "Titre du formulaire de conversation"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:142
+msgid "Enable Conversational Form Mode"
+msgstr "Activer le mode de formulaire de conversation"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:110
+msgid "Preview Conversational Form"
+msgstr "Aperçu du formulaire de conversion"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:87
+#: wpforms-conversational-forms/src/Admin/Builder.php:107
+msgid "Conversational Forms"
+msgstr "Conversational Forms"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:63
+msgid "Use this media"
+msgstr "Utiliser ce média"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:62
+msgid "Select or Upload Form Custom Logo"
+msgstr "Sélectionner ou téléverser le logo personnalisé du formulaire"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:60
+msgid "OK"
+msgstr "OK"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:59
+msgid "Conversational Forms cannot be enabled if Form Pages is enabled at the same time."
+msgstr "Conversational Forms ne peut pas être activé si Form Pages est activé en même temps."
+
+#. translators: %s - Percentage of fields completed.
+#: wpforms-conversational-forms/src/Frontend.php:770
+msgid "%s%% completed"
+msgstr "%s%% terminés"
+
+#: wpforms-conversational-forms/src/Frontend.php:753
+msgid "Form completed"
+msgstr "Formulaire terminé"
+
+#. translators: %1$s - Number of fields completed; %2$s - Number of fields in
+#. total.
+#: wpforms-conversational-forms/src/Frontend.php:743
+msgid "%1$s of %2$s completed"
+msgstr "%1$s sur %2$s remplis"
+
+#: wpforms-conversational-forms/src/Frontend.php:684
+msgid "<strong>Shift+Enter</strong> to go to the next field"
+msgstr "<strong>Maj+Entrée</strong> pour aller au champ suivant"
+
+#: wpforms-conversational-forms/src/Frontend.php:675
+msgid "<strong>Shift+Enter</strong> to open file"
+msgstr "<strong>Maj+Entrée</strong> pour ouvrir le fichier"
+
+#: wpforms-conversational-forms/src/Frontend.php:666
+msgid "<strong>Tab</strong> or <strong>&#x2B07;</strong> to switch the line"
+msgstr "<strong>Tab</strong> ou <strong>&#x2B07;</strong> pour basculer la ligne"
+
+#: wpforms-conversational-forms/src/Frontend.php:657
+msgid "<strong>Shift+Enter</strong> to make a line break"
+msgstr "<strong>Maj+Entrée</strong> pour faire un saut de ligne"
+
+#: wpforms-conversational-forms/src/Frontend.php:636
+msgid "Done"
+msgstr "Terminé"
+
+#: wpforms-conversational-forms/src/Admin/Builder.php:61
+#: wpforms-conversational-forms/src/Admin/Builder.php:321
+#: wpforms-conversational-forms/src/Frontend.php:597
+msgid "Form Logo"
+msgstr "Logo du formulaire"
+
+#: wpforms-conversational-forms/src/Frontend.php:574
+#: wpforms-conversational-forms/src/Frontend.php:638
+msgid "press <strong>Enter</strong>"
+msgstr "appuyez sur <strong>Entrée</strong>"
+
+#: wpforms-conversational-forms/src/Frontend.php:572
+msgid "Start"
+msgstr "Début"
+
+#: wpforms-conversational-forms/src/Frontend.php:541
+#: wpforms-conversational-forms/src/Frontend.php:796
+msgid "powered by"
+msgstr "propulsé par"
+
+#: wpforms-conversational-forms/src/Frontend.php:535
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: wpforms-conversational-forms/src/Frontend.php:516
+msgid "No file chosen"
+msgstr "Aucun fichier choisi"
+
+#: wpforms-conversational-forms/src/Frontend.php:513
+msgid "Choose File"
+msgstr "Choisissez un fichier"
+
+#: wpforms-conversational-forms/src/Frontend.php:247
+msgid "<strong>Enter</strong> to select option"
+msgstr "<strong>Entrée</strong> pour sélectionner l’option"
+
+#: wpforms-conversational-forms/src/Frontend.php:246
+msgid "No suggestions found"
+msgstr "Aucune suggestion trouvée"
+
+#: wpforms-conversational-forms/src/Frontend.php:245
+msgid "Type or select an option"
+msgstr "Saisissez ou sélectionnez une option"
+
+#. translators: %s - WPForms.com documentation page URL.
+#: wpforms-conversational-forms/wpforms-conversational-forms.php:57
+msgid "The WPForms Conversational Forms plugin has been deactivated. Your site is running an outdated version of PHP that is no longer supported and is not compatible with the Conversational Forms addon. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Read more</a> for additional information."
+msgstr "L’extension WPForms Conversational Forms a été désactivée. Votre site utilise une version obsolète de PHP qui n’est plus prise en charge et incompatible avec le module WPForms Conversational Forms. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Lire la suite</a> pour des informations complémentaires."

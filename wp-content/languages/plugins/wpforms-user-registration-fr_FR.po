@@ -1,0 +1,536 @@
+# Translation of WPForms - WPForms User Registration in French (France)
+# This file is distributed under the same license as the WPForms - WPForms User Registration package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-18 20:36:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-rc.4\n"
+"Language: fr\n"
+"Project-Id-Version: WPForms - WPForms User Registration\n"
+
+#: wpforms-user-registration/src/Process/Reset.php:103
+msgid "Unable to reset a password. The user does not exist."
+msgstr "Impossible de réinitialiser un mot de passe, le compte n’existe pas."
+
+#: wpforms-user-registration/src/Process/Registration.php:84
+msgid "This username is invalid because it uses illegal characters. Please enter a valid username."
+msgstr "Cet identifiant n’est pas valide car il utilise des caractères illégaux. Veuillez saisir un identifiant valide."
+
+#: wpforms-user-registration/src/Frontend/Reset.php:119
+msgid "<strong>Error:</strong> Your password reset link appears to be invalid. Please request a new link below."
+msgstr "<strong>Erreur :</strong> votre lien de réinitialisation de mot de passe semble ne pas être valide. Veuillez demander un nouveau lien ci-dessous."
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:334
+msgid "-- Select Page --"
+msgstr "-- Sélectionner une page --"
+
+#. translators: %d - a page ID.
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:322
+msgid "#%d (no title)"
+msgstr "#%d (pas de titre)"
+
+#. translators: %1$s - user's first name, %2$s - logout url.
+#: wpforms-user-registration/src/Admin/Builder/Base.php:79
+msgid "Hi %1$s, you’re already logged in. <a href=\"%2$s\">Log out</a>."
+msgstr "Bonjour %1$s, vous êtes déjà connecté•e. <a href=\"%2$s\">Déconnexion</a>."
+
+#: wpforms-user-registration/src/Activation.php:99
+msgid "The link is expired please contact the site administrator for more details."
+msgstr "Le lien a expiré. Veuillez contacter l’administrateur ou l‘administratrice du site pour plus de détails."
+
+#: wpforms-user-registration/wpforms-user-registration.php:139
+msgid "The WPForms User Registration plugin has been deactivated, because it requires WPForms v1.7.1.2 or later to work."
+msgstr "L’extension WPForms User Registration a été désactivée, car elle nécessite WPForms v1.6.8 ou plus récent pour fonctionner."
+
+#. translators: %s - WPForms.com documentation page URL.
+#: wpforms-user-registration/wpforms-user-registration.php:111
+msgid "The WPForms User Registration plugin has been deactivated. Your site is running an outdated version of PHP that is no longer supported and is not compatible with the User Registration addon. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Read more</a> for additional information."
+msgstr "L’extension WPForms User Registration a été désactivée. Votre site utilise une version obsolète de PHP qui n’est plus prise en charge et qui n’est pas compatible avec le module User Registration. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Lire la suite</a> pour des informations complémentaires."
+
+#: wpforms-user-registration/src/Templates/Reset.php:23
+msgid "Allow your users to easily reset their password."
+msgstr "Autorisez vos comptes à réinitialiser facilement leur mot de passe."
+
+#: wpforms-user-registration/src/Templates/Reset.php:21
+msgid "User Password Reset Form"
+msgstr "Formulaire de réinitialisation du mot de passe du compte"
+
+#: wpforms-user-registration/src/Templates/Login.php:56
+#: wpforms-user-registration/src/Templates/Login.php:61
+msgid "Remember me"
+msgstr "Se souvenir de moi"
+
+#: wpforms-user-registration/src/SmartTags.php:40
+msgid "User Registration user password reset URL"
+msgstr "URL de réinitialisation du mot de passe d’inscription de compte"
+
+#: wpforms-user-registration/src/SmartTags.php:39
+msgid "Admin manage users activations URL"
+msgstr "L’administrateur ou l'administratrice gère l’URL d’activations des comptes"
+
+#: wpforms-user-registration/src/SmartTags.php:38
+msgid "User Registration user activation URL"
+msgstr "URL d’activation d’inscription de compte"
+
+#: wpforms-user-registration/src/SmartTags.php:37
+msgid "User Registration Password"
+msgstr "Mot de passe d’inscription de compte"
+
+#: wpforms-user-registration/src/SmartTags.php:36
+msgid "User Registration Email"
+msgstr "E-mail d’inscription de compte"
+
+#: wpforms-user-registration/src/SmartTags.php:35
+msgid "User Registration Login"
+msgstr "Connexion User Registration"
+
+#: wpforms-user-registration/src/SmartTags.php:34
+msgid "Site Name"
+msgstr "Nom du site"
+
+#: wpforms-user-registration/src/Process/Reset.php:75
+msgid "Unable to reset user, Username or Email Address is missing."
+msgstr "Impossible de réinitialiser le compte, l’identifiant ou l’adresse e-mail est manquant."
+
+#: wpforms-user-registration/src/Process/Login.php:43
+msgid "Username and Password are required."
+msgstr "L’identifiant et le mot de passe sont nécessaires."
+
+#: wpforms-user-registration/src/Frontend/Reset.php:96
+msgid "Check your email for the confirmation link."
+msgstr "Vérifiez vos e-mails pour le lien de confirmation."
+
+#: wpforms-user-registration/src/Frontend/Reset.php:82
+msgid "Your password has been reset."
+msgstr "Votre mot de passe a été réinitialisé."
+
+#. translators: %s - unapproved users list page URL.
+#: wpforms-user-registration/src/EmailNotifications/Notifications.php:410
+msgid "Manage user activations: %s"
+msgstr "Gérer les activations de compte : %s"
+
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:252
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Si ceci est une erreur, ignorez cet e-mail et rien ne se passera."
+
+#. translators: %s - {site_name} smart tag.
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:243
+msgid "Site Name: %s"
+msgstr "Titre du site : %s"
+
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:241
+msgid "Someone has requested a password reset for the following account:"
+msgstr "Quelqu’un a demandé la réinitialisation du mot de passe pour le compte suivant :"
+
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:229
+msgid "Reset Your Password"
+msgstr "Réinitialiser votre mot de passe"
+
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:214
+msgid "You can log in with your credentials now."
+msgstr "Vous pouvez maintenant vous connecter avec vos infos de connexion."
+
+#. translators: %s - {site_name} smart tag.
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:200
+msgid "%s Your account was successfully activated"
+msgstr "%s Votre compte a bien été activé"
+
+#. translators: %s - {user_registration_password} smart tag.
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:181
+msgid "Password: %s"
+msgstr "Mot de passe : %s"
+
+#. translators: %s - {site_name} smart tag.
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:161
+msgid "%s Your username and password info"
+msgstr "%s Vos infos d’identifiant et de mot de passe"
+
+#. translators: %s - {user_registration_email} smart tag.
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:144
+msgid "Email: %s"
+msgstr "E-mail : %s"
+
+#. translators: %s - {user_registration_login} smart tag.
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:139
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:176
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:248
+msgid "Username: %s"
+msgstr "Identifiant : %s"
+
+#. translators: %s - {site_name} smart tag.
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:134
+msgid "New user registration on your site %s:"
+msgstr "Inscription d’un nouveau compte sur votre site %s :"
+
+#. translators: %s - {site_name} smart tag.
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:119
+msgid "%s New User Registration"
+msgstr "%s Enregistrement d’un nouveau compte"
+
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:103
+msgid "Please visit the link below."
+msgstr "Veuillez consulter le lien ci-dessous."
+
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:102
+msgid "IMPORTANT: You must activate your account before you can log in."
+msgstr "IMPORTANT : Vous devez activer votre compte avant de pouvoir vous connecter."
+
+#. translators: %s - {site_name} smart tag.
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:88
+msgid "%s Activation Required"
+msgstr "%s Activation nécessaire"
+
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:60
+msgid "Message"
+msgstr "Message"
+
+#: wpforms-user-registration/src/EmailNotifications/Helper.php:43
+msgid "Email Subject"
+msgstr "Sujet de l’e-mail"
+
+#: wpforms-user-registration/src/Admin/UsersListing.php:604
+msgid "You can&#8217;t edit that user."
+msgstr "Vous ne pouvez pas modifier ce compte."
+
+#. translators: %s - number of users.
+#: wpforms-user-registration/src/Admin/UsersListing.php:371
+msgid "%s user was notified."
+msgid_plural "%s users were notified."
+msgstr[0] "%s compte a été notifié."
+msgstr[1] "%s comptes ont été notifiés."
+
+#. translators: %s - Link to resend activation email
+#: wpforms-user-registration/src/Admin/UsersListing.php:221
+msgid "<a href=\"%s\" rel=\"noopener noreferrer\">Resend activation email</a>"
+msgstr "<a href=\"%s\" rel=\"noopener noreferrer\">Renvoyer l’e-mail d’activation</a>"
+
+#. translators: %s - Link to approve users action
+#: wpforms-user-registration/src/Admin/UsersListing.php:194
+msgid "<a href=\"%s\" class=\"submitapprove\" rel=\"noopener noreferrer\">Approve</a>"
+msgstr "<a href=\"%s\" class=\"submitapprove\" rel=\"noopener noreferrer\">Approuver</a>"
+
+#. translators: %s - Link to unapprove users action
+#: wpforms-user-registration/src/Admin/UsersListing.php:165
+msgid "<a href=\"%s\" class=\"submitunapprove\" rel=\"noopener noreferrer\">Unapprove</a>"
+msgstr "<a href=\"%s\" class=\"submitunapprove\" rel=\"noopener noreferrer\">Désapprouver</a>"
+
+#. translators: %1$s - link to unapproved users list admin page; %2$s - CSS
+#. class name; %3$s - count of unapproved users.
+#: wpforms-user-registration/src/Admin/UsersListing.php:84
+msgid "<a href=\"%1$s\" class=\"%2$s\" rel=\"noopener noreferrer\">Unapproved <span class=\"count\">(%3$s)</span></a>"
+msgstr "<a href=\"%1$s\" class=\"%2$s\" rel=\"noopener noreferrer\">Non approuvé <span class=\"count\">(%3$s)</span></a>"
+
+#: wpforms-user-registration/src/Admin/Settings.php:49
+msgid "Modern"
+msgstr "Moderne"
+
+#: wpforms-user-registration/src/Admin/Settings.php:48
+msgid "Legacy"
+msgstr "Hérité"
+
+#: wpforms-user-registration/src/Admin/Settings.php:43
+msgid "Choose the HTML Template used with User Registration. Our Modern template is recommended if you have not customized the emails using code (WordPress hooks)."
+msgstr "Choisissez le modèle HTML utilisé avec User Registration. Notre modèle Moderne est recommandé si vous n’avez pas personnalisé les e-mails à l’aide de code {crochets WordPress}."
+
+#: wpforms-user-registration/src/Admin/Settings.php:42
+msgid "User Registration Template"
+msgstr "Modèle d’inscription de compte"
+
+#: wpforms-user-registration/src/Admin/Builder/Reset.php:46
+msgid "You may customize the email that’s sent when a user requests a password reset."
+msgstr "Vous pouvez personnaliser l’e-mail qui est envoyé lorsqu‘un compte demande une réinitialisation de mot de passe."
+
+#: wpforms-user-registration/src/Admin/Builder/Reset.php:45
+msgid "Reset Password Email"
+msgstr "E-mail de réinitialisation de mot de passe"
+
+#: wpforms-user-registration/src/Admin/Builder/Reset.php:36
+msgid "User Registration - Reset Password"
+msgstr "Inscription de compte - Réinitialisation de mot de passe"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:476
+msgid " a user account if..."
+msgstr " un compte si…"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:474
+msgid "Do not create"
+msgstr "Ne pas créer"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:473
+msgid "Create"
+msgstr "Créer"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:417
+msgid "Email the user once their account has been activated."
+msgstr "Envoyer un e-mail au compte une fois que son compte a été activé."
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:385
+msgid "Email the admin when a new user is created."
+msgstr "Envoyer un e-mail à l’administrateur ou l‘administratrice lorsqu‘un nouveau compte est créé."
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:370
+msgid "<a href=\"#\" class=\"registration_email_template_toggle\">Edit Template</a>"
+msgstr "<a href=\"#\" class=\"registration_email_template_toggle\">Modifier le modèle</a>"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:348
+msgid "Automatically log the user in after they've registered."
+msgstr "Connecter automatiquement les comptes après leur inscription."
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:346
+msgid "Enable auto log in"
+msgstr "Activer la connexion automatique"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:155
+msgid "If a username is not set or provided, the user's email address will be used instead."
+msgstr "Si un identifiant n’est pas défini ou fourni, l’adresse e-mail du compte sera utilisée à la place."
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:104
+msgid "Conditional Logic"
+msgstr "Logique conditionnelle"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:95
+msgid "Connect additional form fields to custom fields which are associated with the user’s account."
+msgstr "Connectez des champs de formulaire supplémentaires aux champs personnalisés associés au compte."
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:86
+msgid "Email Notifications"
+msgstr "Notifications par e-mail"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:78
+msgid "User Activation & Login"
+msgstr "Activation et connexion des comptes"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:63
+msgid "Connect your form fields to information in the user’s account."
+msgstr "Connectez vos champs de formulaire aux informations du compte."
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:62
+msgid "Field Mapping"
+msgstr "Mapper le champ"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:51
+msgid "Enable User Registration"
+msgstr "Activer l’inscription de compte"
+
+#: wpforms-user-registration/src/Admin/Builder/Login.php:34
+msgid "User Registration - Login"
+msgstr "Inscription de compte - Connexion"
+
+#: wpforms-user-registration/src/Admin/Builder/Base.php:102
+msgid "Message to display instead of a form for logged in users."
+msgstr "Message à afficher à la place d’un formulaire pour les comptes connectés."
+
+#: wpforms-user-registration/src/Admin/Builder/Base.php:95
+msgid "Logged In Message"
+msgstr "Message si connecté•e"
+
+#: wpforms-user-registration/src/Admin/Builder/Base.php:72
+msgid "Hide form if user is logged in"
+msgstr "Masquer le formulaire si le compte est connecté"
+
+#: wpforms-user-registration/src/Admin/Builder.php:83
+msgid "Hide Template"
+msgstr "Masquer le modèle"
+
+#: wpforms-user-registration/src/Admin/Builder.php:82
+msgid "Edit Template"
+msgstr "Modifier le modèle"
+
+#. translators: %d - field ID.
+#: wpforms-user-registration/templates/builder/custom-user-meta.php:40
+msgid "Field #%d"
+msgstr "Champ #%d"
+
+#: wpforms-user-registration/templates/builder/custom-user-meta.php:28
+msgid "Enter meta key..."
+msgstr "Saisissez une clé méta..."
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:94
+msgid "Custom User Meta"
+msgstr "Méta utilisateur personnalisé"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:336
+msgid "Select the page to show the user after they activate their account."
+msgstr "Sélectionnez la page à afficher à l’utilisateur après l’activation de son compte."
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:332
+msgid "User Activation Confirmation Page"
+msgstr "Page de confirmation d’activation d’utilisateur"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:309
+msgid "User Email method sends an email to the user with a link to activate their account. Manual Approval requires site admin to approve account."
+msgstr "La méthode d’e-mail utilisateur envoie un e-mail à l’utilisateur avec un lien pour activer son compte. L’acceptation manuelle nécessite que l’admin du site approuve le compte."
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:307
+msgid "Manual Approval"
+msgstr "Acceptation manuelle"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:306
+msgid "User Email"
+msgstr "E-mail du compte"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:302
+msgid "User Activation Method"
+msgstr "Méthode d’activation d’utilisateur"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:291
+msgid "Enable user activation"
+msgstr "Activer l’activation d’utilisateur"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:401
+msgid "Email the user with their account information."
+msgstr "Envoyer un e-mail à l’utilisateur contenant les informations de compte"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:70
+msgid "User Roles"
+msgstr "Rôle utilisateur"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:230
+msgid "Biographical Info"
+msgstr "Renseignements biographiques"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:216
+msgid "Website"
+msgstr "Site Web"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:205
+msgid "Auto generate"
+msgstr "Génération automatique"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:154
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:174
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:191
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:219
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:233
+#: wpforms-user-registration/templates/builder/custom-user-meta.php:34
+msgid "--- Select Field ---"
+msgstr "-- Sélectionner un champ --"
+
+#: wpforms-user-registration/src/Admin/Builder.php:100
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:39
+msgid "User Registration"
+msgstr "Inscription d’utilisateur"
+
+#: wpforms-user-registration/src/EmailNotifications/Notifications.php:504
+msgid "Site administrator must activate your account before you can log in."
+msgstr "L’administrateur du site doit activer votre compte avant de pouvoir vous connecter."
+
+#: wpforms-user-registration/src/EmailNotifications/Notifications.php:480
+msgid "You must manually activate their account."
+msgstr "Vous devez activer manuellement leur compte."
+
+#: wpforms-user-registration/src/EmailNotifications/Notifications.php:485
+msgid "The user has been emailed a link to activate their account."
+msgstr "L’utilisateur à reçu par e-mail un lien pour activer son compte."
+
+#: wpforms-user-registration/src/EmailNotifications/Notifications.php:476
+msgid "Account activation is required before the user can log in."
+msgstr "L’activation du compte est nécessaire avant que l’utilisateur puisse se connecter."
+
+#: wpforms-user-registration/src/EmailNotifications/Notifications.php:475
+msgid "(Activation Required)"
+msgstr "(Activation nécessaire)"
+
+#: wpforms-user-registration/src/Process/Registration.php:96
+msgid "A user with that email already exists."
+msgstr "Un utilisateur avec cet e-mail existe déjà."
+
+#: wpforms-user-registration/src/Process/Registration.php:57
+msgid "A user with that username already exists."
+msgstr "Un utilisateur avec cet identifiant existe déjà."
+
+#: wpforms-user-registration/src/Process/Registration.php:47
+msgid "Email address is required."
+msgstr "Une adresse de messagerie valide est nécessaire"
+
+#: wpforms-user-registration/src/Templates/Registration.php:71
+msgid "Share a little information about yourself."
+msgstr "Partagez quelques informations vous concernant."
+
+#: wpforms-user-registration/src/Templates/Registration.php:70
+msgid "Short Bio"
+msgstr "Courte bio"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:171
+#: wpforms-user-registration/src/Templates/Registration.php:52
+msgid "Email"
+msgstr "E-mail"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:151
+#: wpforms-user-registration/src/Templates/Registration.php:45
+msgid "Username"
+msgstr "Identifiant"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:188
+#: wpforms-user-registration/src/Templates/Registration.php:37
+msgid "Name"
+msgstr "Nom"
+
+#: wpforms-user-registration/src/Templates/Registration.php:29
+msgid "Additional user registration options are available in the settings panel."
+msgstr "Les options additionnelles d’inscription utilisateur sont disponibles dans le panneau des réglages."
+
+#: wpforms-user-registration/src/Templates/Registration.php:28
+msgid "Don&#39;t Forget"
+msgstr "N’oubliez pas"
+
+#: wpforms-user-registration/src/Templates/Registration.php:23
+msgid "Create customized WordPress user registration forms and add them anywhere on your website."
+msgstr "Créez un formulaire personnalisé d’inscription utilisateur WordPress et ajoutez le n’importe où sur votre site."
+
+#: wpforms-user-registration/src/Templates/Registration.php:21
+msgid "User Registration Form"
+msgstr "Formulaire d’inscription utilisateur"
+
+#: wpforms-user-registration/src/Admin/Builder/Registration.php:202
+#: wpforms-user-registration/src/Templates/Login.php:45
+#: wpforms-user-registration/src/Templates/Registration.php:63
+#: wpforms-user-registration/src/Templates/Reset.php:45
+msgid "Password"
+msgstr "Mot de passe"
+
+#: wpforms-user-registration/src/Templates/Login.php:34
+#: wpforms-user-registration/src/Templates/Reset.php:34
+msgid "Username or Email"
+msgstr "Identifiant ou adresse de messagerie"
+
+#: wpforms-user-registration/src/Templates/Login.php:23
+msgid "Allow your users to easily log in to your site with their username and password."
+msgstr "Autorisez vos utilisateurs à se connecter facilement sur votre site avec leur identifiant et leur mot de passe."
+
+#: wpforms-user-registration/src/Templates/Login.php:21
+msgid "User Login Form"
+msgstr "Formulaire de connexion utilisateur"
+
+#: wpforms-user-registration/src/Admin/UsersListing.php:510
+msgid "You can&#8217;t unapprove users."
+msgstr "Vous ne pouvez pas désapprouver les utilisateurs."
+
+#: wpforms-user-registration/src/Process/Process.php:87
+msgid "<strong>ERROR:</strong> Your account must be activated before you can log in."
+msgstr "<strong>ERREUR :</strong> Votre compte doit être activé avant de pouvoir vous connecter."
+
+#. translators: %s - number of users.
+#: wpforms-user-registration/src/Admin/UsersListing.php:352
+msgid "%s user unapproved."
+msgid_plural "%s users unapproved."
+msgstr[0] "%s utilisateur non approuvé."
+msgstr[1] "%s utilisateurs non approuvés."
+
+#. translators: %s - number of users.
+#: wpforms-user-registration/src/Admin/UsersListing.php:333
+msgid "%s user approved."
+msgid_plural "%s users approved."
+msgstr[0] "%s utilisateur approuvé."
+msgstr[1] "%s utilisateurs approuvés."
+
+#: wpforms-user-registration/src/Admin/UsersListing.php:126
+msgid "Unapprove"
+msgstr "Désapprouver"
+
+#: wpforms-user-registration/src/Admin/UsersListing.php:125
+msgid "Approve"
+msgstr "Approuver"

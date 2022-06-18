@@ -1,0 +1,44 @@
+# Translation of Plugins - Meta Box &#8211; Elementor Integrator - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Meta Box &#8211; Elementor Integrator - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-16 17:32:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Meta Box &#8211; Elementor Integrator - Stable (latest release)\n"
+
+#: src/Traits/Archive.php:19 src/Traits/Post.php:21 src/Traits/Settings.php:15
+msgid "-- Select a field --"
+msgstr "-- Sélectionner un champ --"
+
+#. Author URI of the plugin
+msgid "https://metabox.io"
+msgstr "https://metabox.io"
+
+#. Author of the plugin
+msgid "MetaBox.io"
+msgstr "MetaBox.io"
+
+#. Description of the plugin
+msgid "Integrates Meta Box and Elementor Page Builder."
+msgstr "Intègre Meta Box et Elementor Page Builder."
+
+#. Plugin URI of the plugin
+msgid "https://metabox.io/plugins/mb-elementor-integrator/"
+msgstr "https://metabox.io/plugins/mb-elementor-integrator/"
+
+#. Plugin Name of the plugin
+msgid "Meta Box - Elementor Integrator"
+msgstr "Meta Box - Elementor Integrator"
+
+#: src/Traits/Base.php:25
+msgid "Field"
+msgstr "Champ"
+
+#: src/Traits/Base.php:12
+msgid "Meta Box Field"
+msgstr "Champ Meta Box"
