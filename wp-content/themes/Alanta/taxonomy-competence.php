@@ -32,18 +32,33 @@ get_header();
 			<div class="container-wrapper">
 				<div class="mag-box-container clearfix">
                     <ul>
-                        
-                        
+                        <li>
                         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                        //Display Posts code here
-                                <h2><?php the_title() ;?></h2> //Display the title of the post
-                                    <?php the_post_thumbnail(); ?> //Display the post thumbnail AKA featured image
-                                    <?php the_excerpt(); ?> //Display excerpt of the post
-                        <?php endwhile; else : ?> //End the while loop
-                                            <p><?php _e( 'No Posts To Display.' ); ?></p>
-                        <?php endif; ?> //end If statement
+                            <a href="<?= get_permalink() ?>" class="wp-container-7 wp-block-columns">
+                                <h2><?php the_title() ;?></h2>
+                                    <?php the_post_thumbnail(); ?>
+                                        <div class="wp-container-1 wp-block-column">
+                                            <?= get_the_title() ?>
+                                        </div>
+                                        <div class="wp-container-1 wp-block-column">
+                                            <?= taqyeem_get_score() ?>
+                                        </div>
+                                        <div class="wp-container-1 wp-block-column">
+                                            A partir de <b><?= get_taxonomy_value('formation_prix_intra'); ?> € HT </b>
+                                        </div>
+                                        
+                                        <div class="formation-archive">
+                                            <p><?= $sous_titre = get_taxonomy_value('formation_sous_titre'); ?></p>
+                                            <?php the_excerpt(); ?>
+                                        </div>
+                                    </li>
+                                </a>
+                            <?php endwhile; else : ?>
+                                <p><?php _e( 'No Posts To Display.' ); ?></p>
+                        <?php endif; ?>  
                     </ul>
                 </div>
+                
             </div>
             </div>
 
