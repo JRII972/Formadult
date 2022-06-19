@@ -38,7 +38,6 @@ function get_taxonomy_value($tag){
                     <ul>
                         <li>
                         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                        <?php the_excerpt(); ?>
                             <a href="<?= get_permalink() ?>" >
                                 <div class="tax_list">
                                     <div>
@@ -52,7 +51,7 @@ function get_taxonomy_value($tag){
                                             <?= get_the_title() ?>
                                         </div>
                                         <div class="wp-container-1 wp-block-column">
-                                           000
+                                            <?= taqyeem_get_score() ?>
                                         </div>
                                         <div class="wp-container-1 wp-block-column">
                                             A partir de <b><?= get_taxonomy_value('formation_prix_intra'); ?> € HT </b>
@@ -66,7 +65,6 @@ function get_taxonomy_value($tag){
                                     <?php the_excerpt(); ?>
                                 </div>
                             </a>
-                            
                             </li>
                             <?php endwhile; else : ?>
                                 <p><?php _e( 'No Posts To Display.' ); ?></p>

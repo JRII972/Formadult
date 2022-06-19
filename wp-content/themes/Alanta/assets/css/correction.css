@@ -311,7 +311,7 @@ nav.is-desktop > ul > li:hover > a > span >  div > img{
     margin-top: 5px;
 }
 
-li:hover .formation-archive{
+li:hover a .formation-archive{
     display: block;
 }
 
