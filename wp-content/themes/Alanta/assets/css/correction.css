@@ -322,3 +322,8 @@ li:hover .formation-archive{
 a:hover{
     color: var(--main-bg-color);
 }
+
+.tax_list{
+    display: flex;
+    flex-direction: column;
+}

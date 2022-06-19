@@ -39,11 +39,12 @@ function get_taxonomy_value($tag){
                         <li>
                         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                             <a href="<?= get_permalink() ?>" class="wp-container-7 wp-block-columns">
-                                <div>
-                                    <h2><?php the_title() ;?></h2> 
-                                </div>
+                                <div class="tax_list">
+                                    <div>
+                                        <h2><?php the_title() ;?></h2> 
+                                    </div>
 
-                                <br/>
+                                    
                                     <?php the_post_thumbnail(); ?>
                                         <div class="wp-container-1 wp-block-column">
                                             <?= get_the_title() ?>
@@ -59,8 +60,10 @@ function get_taxonomy_value($tag){
                                             <p><?= $sous_titre = get_taxonomy_value('formation_sous_titre'); ?></p>
                                             <?php the_excerpt(); ?>
                                         </div>
-                                    </li>
-                                </a>
+                                </div>
+                                    
+                            </a>
+                            </li>
                             <?php endwhile; else : ?>
                                 <p><?php _e( 'No Posts To Display.' ); ?></p>
                         <?php endif; ?>  
