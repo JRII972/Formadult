@@ -57,14 +57,15 @@ function get_taxonomy_value($tag){
                                             A partir de <b><?= get_taxonomy_value('formation_prix_intra'); ?> € HT </b>
                                         </div>
                                         
-                                        <div class="formation-archive">
-                                            <p><?= $sous_titre = get_taxonomy_value('formation_sous_titre'); ?></p>
-                                            <?php the_excerpt(); ?>
-                                        </div>
+                                        
                                     </div>
                                 </div>
-                                    
+                                <div class="formation-archive">
+                                    <p><?= $sous_titre = get_taxonomy_value('formation_sous_titre'); ?></p>
+                                    <?php the_excerpt(); ?>
+                                </div>
                             </a>
+                            <?php the_excerpt(); ?>
                             </li>
                             <?php endwhile; else : ?>
                                 <p><?php _e( 'No Posts To Display.' ); ?></p>
