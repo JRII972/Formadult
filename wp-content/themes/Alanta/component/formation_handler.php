@@ -27,7 +27,7 @@ class formation_handler {
         
         $this->bannerImg = $this->get_taxonomy_value('bannerImg');
         
-        $listeModalite = get_the_terms($this->ID, 'formation_modalite');
+        $listeModalite = get_the_terms($this->ID, 'modalite');
         if ($listeModalite){
             foreach($listeModalite as $modaliteItem){
                 $this->modalite = $this->modalite.'<span class="modalite"> '.$modaliteItem->name.'</span>';

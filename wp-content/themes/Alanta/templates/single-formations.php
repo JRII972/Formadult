@@ -30,7 +30,7 @@ use tool_monitor\output\managesubs\subs;
 
 
  $modalite = '';
- $listeModalite = get_the_terms(get_the_ID(), 'formation_modalite');
+ $listeModalite = get_the_terms(get_the_ID(), 'modalite');
  if($listeModalite != false){
 	foreach($listeModalite as $modaliteItem){
 		$modalite = $modalite.'<span class="modalite"> '.$modaliteItem->name.'</span>';

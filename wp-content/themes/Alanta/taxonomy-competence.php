@@ -33,14 +33,14 @@ get_header();
 				<div class="mag-box-container clearfix">
                     <ul>
                         <?php 
-                        $custom_terms = get_terms('formation_competence');
+                        $custom_terms = get_terms('competence');
 
                         foreach($custom_terms as $custom_term) {
                             wp_reset_query();
                             $args = array('post_type' => 'formation',
                                 'tax_query' => array(
                                     array(
-                                        'taxonomy' => 'formation_competence',
+                                        'taxonomy' => 'competence',
                                         'field' => 'slug',
                                         'terms' => 'accueil-et-reception',
                                     ),

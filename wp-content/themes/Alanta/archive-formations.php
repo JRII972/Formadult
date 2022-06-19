@@ -28,7 +28,7 @@ get_header();
 			</header><!-- .entry-header-outer /-->
 
             <?php 
-                $taxonomy = "formation_competence";
+                $taxonomy = "competence";
                 $terms = get_terms([
                     'taxonomy' => $taxonomy,
                     'hide_empty' => false,

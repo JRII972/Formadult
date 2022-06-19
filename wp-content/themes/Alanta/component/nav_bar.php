@@ -45,7 +45,7 @@ function get_formations($slug, $postType)
         'post_type' => $postType, // the post type
         'tax_query' => array(
             array(
-                'taxonomy' => 'formation_competence', // the custom vocabulary
+                'taxonomy' => 'competence', // the custom vocabulary
                 'field'    => 'slug',
                 'terms'    => 'test',      // provide the term slugs
             ),
@@ -97,7 +97,7 @@ function get_formations_mobile($slug, $postType)
         'post_type' => $postType, // the post type
         'tax_query' => array(
             array(
-                'taxonomy' => 'formation_competence', // the custom vocabulary
+                'taxonomy' => 'competence', // the custom vocabulary
                 'field'    => 'slug',
                 'terms'    => 'test',      // provide the term slugs
             ),
@@ -201,7 +201,7 @@ $custom_logo_url = wp_get_attachment_image_url($custom_logo_id, 'full');
                         </span></a>
                     <ul data-custom-scrollbar="" data-subitems-columns="" class="secondary-nav is--hidden has-col-last">
                         <div class="go-back"><a href="#"><span class="back-label">Retour</span></a></div>
-                        <?php display_menu_item(get_menu_items('formation_competence'), 'formation'); ?>
+                        <?php display_menu_item(get_menu_items('competence'), 'formation'); ?>
                         <?php display_menu_item(get_menu_items('formation_metier'), 'formation'); ?>
 
                         <div data-col-last="" class="page_speed_218163443 col" style="display: block;">
@@ -286,7 +286,7 @@ $custom_logo_url = wp_get_attachment_image_url($custom_logo_id, 'full');
                 <ul data-custom-scrollbar="" data-subitems-columns="" class="secondary-nav is--hidden has-col-last">
                     <div class="go-back"><a onclick="mobile_hidde_nav_menu(this)" href="#"><span
                                 class="back-label">Retour</span></a></div>
-                    <?php display_menu_mobile_item(get_menu_items('formation_competence'), 'formation'); ?>
+                    <?php display_menu_mobile_item(get_menu_items('competence'), 'formation'); ?>
                     <?php display_menu_mobile_item(get_menu_items('formation_metier'), 'formation'); ?>
 
 
