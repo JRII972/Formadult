@@ -38,7 +38,7 @@ function get_taxonomy_value($tag){
                     <ul>
                         <li>
                         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                            <a href="<?= get_permalink() ?>" class="wp-container-7 wp-block-columns">
+                            <a href="<?= get_permalink() ?>" >
                                 <div class="tax_list">
                                     <div>
                                         <h2><?php the_title() ;?></h2> 
@@ -46,6 +46,7 @@ function get_taxonomy_value($tag){
 
                                     
                                     <?php the_post_thumbnail(); ?>
+                                    <div class="wp-container-7 wp-block-columns">
                                         <div class="wp-container-1 wp-block-column">
                                             <?= get_the_title() ?>
                                         </div>
@@ -60,6 +61,7 @@ function get_taxonomy_value($tag){
                                             <p><?= $sous_titre = get_taxonomy_value('formation_sous_titre'); ?></p>
                                             <?php the_excerpt(); ?>
                                         </div>
+                                    </div>
                                 </div>
                                     
                             </a>
