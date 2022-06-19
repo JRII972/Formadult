@@ -140,22 +140,3 @@ function jannah_content_width() {
 
 //delete_transient( 'tie_critical_css_'.TIELABS_THEME_ID );
 
-
-function create_posttype() {
-	register_post_type( 'news',
-	// CPT Options
-	array(
-	  'labels' => array(
-	   'name' => __( 'news' ),
-	   'singular_name' => __( 'news' )
-	  ),
-	  'public' => true,
-	  'has_archive' => false,
-	  'rewrite' => array('slug' => 'news'),
-	 )
-	);
-	}
-	
-	// Hooking up our function to theme setup
-	add_action( 'init', 'create_posttype' );
-	

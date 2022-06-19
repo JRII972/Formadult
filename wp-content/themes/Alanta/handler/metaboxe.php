@@ -7,7 +7,7 @@ function Référence_formation( $meta_boxes ) {
     $meta_boxes[] = [
         'title'      => esc_html__( 'Formation ', 'formAdult' ),
         'id'         => 'formation_data',
-        'post_types' => ['formation'],
+        'post_types' => ['formations'],
         'context'    => 'side',
         'priority'   => 'low',
         'autosave'   => true,
@@ -100,8 +100,8 @@ function Référence_formation( $meta_boxes ) {
                 'type'       => 'post',
                 'name'       => esc_html__( 'Formateur', 'formAdult' ),
                 'id'         => $prefix . 'formateur',
-                'desc'       => esc_html__( 'Liste des formateur associer à cette formation', 'formAdult' ),
-                'post_type'  => 'formateur',
+                'desc'       => esc_html__( 'Liste des formateurs associer à cette formation', 'formAdult' ),
+                'post_type'  => 'formateurs',
                 'field_type' => 'checkbox_list',
             ],
         ],
@@ -118,7 +118,7 @@ function Taux_formation( $meta_boxes ) {
     $meta_boxes[] = [
         'title'    => esc_html__( 'Résultat sondage de la formation', 'FormAdult' ),
         'id'       => 'Taux',
-        'post_types' => ['formation'],
+        'post_types' => ['formations'],
         'context'  => 'side',
         'autosave' => true,
         'fields'   => [
