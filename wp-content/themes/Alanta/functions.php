@@ -142,16 +142,16 @@ function jannah_content_width() {
 
 
 function create_posttype() {
-	register_post_type( 'formations',
+	register_post_type( 'formation',
 	// CPT Options
 	array(
 	  'labels' => array(
-	   'name' => __( 'formations' ),
-	   'singular_name' => __( 'formations' )
+	   'name' => __( 'formation' ),
+	   'singular_name' => __( 'formation' )
 	  ),
 	  'public' => true,
 	  'has_archive' => false,
-	  'rewrite' => array('slug' => 'formations'),
+	  'rewrite' => array('slug' => 'formation'),
 	 )
 	);
 	}
