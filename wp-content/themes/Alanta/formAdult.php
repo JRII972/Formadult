@@ -38,3 +38,4 @@ style();
 add_action('after_setup_theme', 'formAdult\supports', 5);
 add_action('wp_enqueue_style', 'formAdult\style', 2);
 
+add_action('init', 'style');

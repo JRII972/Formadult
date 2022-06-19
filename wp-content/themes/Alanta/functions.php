@@ -140,4 +140,5 @@ function jannah_content_width() {
 
 //delete_transient( 'tie_critical_css_'.TIELABS_THEME_ID );
 
-require("formAdult.php");
+require_once('formAdult.php');
+	
