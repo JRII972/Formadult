@@ -317,6 +317,7 @@ nav.is-desktop > ul > li:hover > a > span >  div > img{
 
 li:hover a .formation-archive{
     display: block;
+    color: var(--main-bg-color);
 }
 
 .sessions_text{
