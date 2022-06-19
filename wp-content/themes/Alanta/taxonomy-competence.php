@@ -32,22 +32,24 @@ get_header();
 			<div class="container-wrapper">
 				<div class="mag-box-container clearfix">
                     <ul>
+                        
                         <?php 
-                        $custom_terms = get_terms('competence');
+                        // var_dump()
+                        // $custom_terms = get_terms('competence');
 
-                        foreach($custom_terms as $custom_term) {
-                            wp_reset_query();
-                            $args = array('post_type' => 'formation',
-                                'tax_query' => array(
-                                    array(
-                                        'taxonomy' => 'competence',
-                                        'field' => 'slug',
-                                        'terms' => 'accueil-et-reception',
-                                    ),
-                                ),
-                             );
+                        // foreach($custom_terms as $custom_term) {
+                        //     wp_reset_query();
+                        //     $args = array('post_type' => 'formation',
+                        //         'tax_query' => array(
+                        //             array(
+                        //                 'taxonomy' => 'competence',
+                        //                 'field' => 'slug',
+                        //                 'terms' => 'accueil-et-reception',
+                        //             ),
+                        //         ),
+                        //      );
                              
-                             $loop = new WP_Query($args);
+                        //      $loop = new WP_Query($args);
                              if($loop->have_posts()) {   
                                 echo "<ul>";                    
                                 while($loop->have_posts()) : $loop->the_post();
@@ -87,7 +89,7 @@ get_header();
                                 endwhile;
                                 echo "</ul>";
                              }
-                        }
+                        //}
                         ?>
                     </ul>
                 </div>
