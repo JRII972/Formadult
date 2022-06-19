@@ -158,4 +158,69 @@ function create_posttype() {
 	}
 	// Hooking up our function to theme setup
 	add_action( 'init', 'create_posttype' );
-	
+
+add_action( 'init', 'add_formation' );
+function add_formation() {
+	$labels = [
+		'name'                     => esc_html__( 'Formateurs', 'your-textdomain' ),
+		'singular_name'            => esc_html__( 'Formateur', 'your-textdomain' ),
+		'add_new'                  => esc_html__( 'Add New', 'your-textdomain' ),
+		'add_new_item'             => esc_html__( 'Add new formateur', 'your-textdomain' ),
+		'edit_item'                => esc_html__( 'Edit Formateur', 'your-textdomain' ),
+		'new_item'                 => esc_html__( 'New Formateur', 'your-textdomain' ),
+		'view_item'                => esc_html__( 'View Formateur', 'your-textdomain' ),
+		'view_items'               => esc_html__( 'View Formateurs', 'your-textdomain' ),
+		'search_items'             => esc_html__( 'Search Formateurs', 'your-textdomain' ),
+		'not_found'                => esc_html__( 'No formateurs found', 'your-textdomain' ),
+		'not_found_in_trash'       => esc_html__( 'No formateurs found in Trash', 'your-textdomain' ),
+		'parent_item_colon'        => esc_html__( 'Parent Formateur:', 'your-textdomain' ),
+		'all_items'                => esc_html__( 'All Formateurs', 'your-textdomain' ),
+		'archives'                 => esc_html__( 'Formateur Archives', 'your-textdomain' ),
+		'attributes'               => esc_html__( 'Formateur Attributes', 'your-textdomain' ),
+		'insert_into_item'         => esc_html__( 'Insert into formateur', 'your-textdomain' ),
+		'uploaded_to_this_item'    => esc_html__( 'Uploaded to this formateur', 'your-textdomain' ),
+		'featured_image'           => esc_html__( 'Featured image', 'your-textdomain' ),
+		'set_featured_image'       => esc_html__( 'Set featured image', 'your-textdomain' ),
+		'remove_featured_image'    => esc_html__( 'Remove featured image', 'your-textdomain' ),
+		'use_featured_image'       => esc_html__( 'Use as featured image', 'your-textdomain' ),
+		'menu_name'                => esc_html__( 'Formateurs', 'your-textdomain' ),
+		'filter_items_list'        => esc_html__( 'Filter formateurs list', 'your-textdomain' ),
+		'filter_by_date'           => esc_html__( '', 'your-textdomain' ),
+		'items_list_navigation'    => esc_html__( 'Formateurs list navigation', 'your-textdomain' ),
+		'items_list'               => esc_html__( 'Formateurs list', 'your-textdomain' ),
+		'item_published'           => esc_html__( 'Formateur published', 'your-textdomain' ),
+		'item_published_privately' => esc_html__( 'Formateur published privately', 'your-textdomain' ),
+		'item_reverted_to_draft'   => esc_html__( 'Formateur reverted to draft', 'your-textdomain' ),
+		'item_scheduled'           => esc_html__( 'Formateur scheduled', 'your-textdomain' ),
+		'item_updated'             => esc_html__( 'Formateur updated', 'your-textdomain' ),
+		'text_domain'              => esc_html__( 'your-textdomain', 'your-textdomain' ),
+	];
+	$args = [
+		'label'               => esc_html__( 'Formateurs', 'your-textdomain' ),
+		'labels'              => $labels,
+		'description'         => 'Formateur ou intervenant d\'une formation',
+		'public'              => true,
+		'hierarchical'        => false,
+		'exclude_from_search' => true,
+		'publicly_queryable'  => true,
+		'show_ui'             => true,
+		'show_in_nav_menus'   => true,
+		'show_in_admin_bar'   => true,
+		'show_in_rest'        => false,
+		'query_var'           => true,
+		'can_export'          => true,
+		'delete_with_user'    => true,
+		'has_archive'         => false,
+		'rest_base'           => '',
+		'show_in_menu'        => 'edit.php?post_type=formation',
+		'menu_icon'           => 'dashicons-businessman',
+		'capability_type'     => 'post',
+		'supports'            => ['title', 'editor', 'thumbnail', 'comments'],
+		'taxonomies'          => ['formation_modalite', 'formation_competence'],
+		'rewrite'             => [
+			'with_front' => false,
+		],
+	];
+
+	register_post_type( 'formateur', $args );
+}
