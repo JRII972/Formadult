@@ -4,7 +4,7 @@ use tool_monitor\output\managesubs\subs;
 
 /**
  * Template Name: Formation
- * Template Post Type: page, formation, post
+ * Template Post Type: page, formations, post
  *
  * @package WordPress
  * @subpackage Twenty_Twenty
