@@ -61,7 +61,7 @@ function get_taxonomy_value($tag){
                                     </div>
                                 </div>
                                 <div class="formation-archive">
-                                    <p><?= $sous_titre = get_taxonomy_value('formation_sous_titre'); ?></p>
+                                    <center><?= $sous_titre = get_taxonomy_value('formation_sous_titre'); ?> <br/> <br/> </center>
                                     <?php the_excerpt(); ?>
                                 </div>
                             </a>
