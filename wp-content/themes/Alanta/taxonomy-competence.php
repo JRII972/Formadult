@@ -7,6 +7,10 @@
 use formAdult\formation;
 require_once 'component/formation_handler.php';
 get_header();
+
+function get_taxonomy_value($tag){
+	return get_post_meta(get_the_ID(), $tag, true);
+ }
 ?>
 
 <div <?php tie_content_column_attr(); ?>>
@@ -35,7 +39,9 @@ get_header();
                         <li>
                         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                             <a href="<?= get_permalink() ?>" class="wp-container-7 wp-block-columns">
-                                <h2><?php the_title() ;?></h2> 
+                                <div>
+                                    <h2><?php the_title() ;?></h2> 
+                                </div>
 
                                 <br/>
                                     <?php the_post_thumbnail(); ?>
