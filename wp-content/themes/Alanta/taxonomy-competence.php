@@ -33,64 +33,15 @@ get_header();
 				<div class="mag-box-container clearfix">
                     <ul>
                         
-                        <?php 
-                        // var_dump()
-                        // $custom_terms = get_terms('competence');
-
-                        // foreach($custom_terms as $custom_term) {
-                        //     wp_reset_query();
-                        //     $args = array('post_type' => 'formation',
-                        //         'tax_query' => array(
-                        //             array(
-                        //                 'taxonomy' => 'competence',
-                        //                 'field' => 'slug',
-                        //                 'terms' => 'accueil-et-reception',
-                        //             ),
-                        //         ),
-                        //      );
-                             
-                        //      $loop = new WP_Query($args);
-                             if($loop->have_posts()) {   
-                                echo "<ul>";                    
-                                while($loop->have_posts()) : $loop->the_post();
-                                function get_taxonomy_value($tag){
-                                    return get_post_meta(get_the_ID(), $tag, true);
-                                 }
-                                $sous_titre = get_taxonomy_value('formation_sous_titre');
-                                $Description_video = get_taxonomy_value('formation_youtube_description');
-
-                                $prix_intra = get_taxonomy_value('formation_prix_intra');
-                                $prix_inter = get_taxonomy_value('formation_prix_inter');
-                                $devis = get_taxonomy_value('formation_devis');
-                                $reference = get_taxonomy_value('formation_reference');
-                                $Date = get_taxonomy_value('formation_duree');
-                                $taux_formateur = get_taxonomy_value('formation_taux_formateur');
-                                $taux_qualite = get_taxonomy_value('formation_taux_qualite');
-                                $taux_satisfaction = get_taxonomy_value('formation_taux_satisfaction');
-                                $nbr_participant = get_taxonomy_value('formation_nbr_participant');
-                                    ?>
-                                    <li>
-                                        <a href="<?= get_permalink() ?>" class="wp-container-7 wp-block-columns">
-                                            <div class="wp-container-1 wp-block-column">
-                                                <?= get_the_title() ?>
-                                            </div>
-                                            <div class="wp-container-1 wp-block-column">
-                                                <?= taqyeem_get_score() ?>
-                                            </div>
-                                            <div class="wp-container-1 wp-block-column">
-                                                A partir de <b><?= get_taxonomy_value('formation_prix_intra'); ?> € HT </b>
-                                            </div>
-                                        </a>
-                                        <div class="formation-archive">
-                                            <p><?= $sous_titre = get_taxonomy_value('formation_sous_titre'); ?></p>
-                                        </div>
-                                    </li>
-                                    <?php
-                                endwhile;
-                                echo "</ul>";
-                             }
-                        //}
-                        ?>
+                        
+                        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                        //Display Posts code here
+                                <h2><?php the_title() ;?></h2> //Display the title of the post
+                                    <?php the_post_thumbnail(); ?> //Display the post thumbnail AKA featured image
+                                    <?php the_excerpt(); ?> //Display excerpt of the post
+                        <?php endwhile; else : ?> //End the while loop
+                                            <p><?php _e( 'No Posts To Display.' ); ?></p>
+                        <?php endif; ?> //end If statement
                     </ul>
                 </div>
             </div>
