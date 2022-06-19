@@ -140,3 +140,22 @@ function jannah_content_width() {
 
 //delete_transient( 'tie_critical_css_'.TIELABS_THEME_ID );
 
+
+function create_posttype() {
+	register_post_type( 'formation',
+	// CPT Options
+	array(
+	  'labels' => array(
+	   'name' => __( 'formation' ),
+	   'singular_name' => __( 'formation' )
+	  ),
+	  'public' => true,
+	  'has_archive' => false,
+	  'rewrite' => array('slug' => 'formation'),
+	 )
+	);
+	}
+	
+	// Hooking up our function to theme setup
+	add_action( 'init', 'create_posttype' );
+	
