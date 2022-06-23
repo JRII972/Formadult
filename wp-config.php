@@ -19,8 +19,7 @@
  *
  * @package WordPress
  */
-
- 	
+	
 define( 'WP_HOME', 'http://formadult.com' );
 define( 'WP_SITEURL', 'http://formadult.com' );
 
