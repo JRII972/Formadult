@@ -20,6 +20,10 @@
  * @package WordPress
  */
 
+ 	
+define( 'WP_HOME', 'http://projetforma.com' );
+define( 'WP_SITEURL', 'http://projetforma.com' );
+
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
 define( 'DB_NAME', 'u213337140_AEF1z' );
