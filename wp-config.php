@@ -20,8 +20,8 @@
  * @package WordPress
  */
 	
-define( 'WP_HOME', 'http://formadult.com' );
-define( 'WP_SITEURL', 'http://formadult.com' );
+define( 'WP_HOME', 'http://projetforma.com' );
+define( 'WP_SITEURL', 'http://projetforma.com' );
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
