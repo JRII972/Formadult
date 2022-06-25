@@ -28,7 +28,11 @@ defined( 'ABSPATH' ) || exit; // Exit if accessed directly
 	?>
 
 	<article id="the-post" <?php tie_post_class( 'container-wrapper post-content', false, false, true ); ?>>
-
+		<style>
+			.post-title .entry-title{
+				display: none;
+			}
+		</style>
 		<?php
 			/**
 			 * TieLabs/before_single_post_title hook.
