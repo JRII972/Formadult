@@ -27,7 +27,9 @@ if( ! tie_get_postdata( 'tie_hide_title' ) ){
 
 		<?php do_action( 'TieLabs/before_entry_head' ); ?>
 
-		
+		<!-- <div class="entry-header">
+			<<?php echo esc_attr( $title_tag ) ?> class="post-title entry-title"><?php the_title(); ?></<?php echo esc_attr( $title_tag ) ?>>
+		</div> -->
 		<!-- .entry-header /-->
 
 		<?php do_action( 'TieLabs/after_entry_head' ); ?>

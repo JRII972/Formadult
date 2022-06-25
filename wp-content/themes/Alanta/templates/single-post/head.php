@@ -38,7 +38,7 @@ do_action( 'TieLabs/before_post_head' ); ?>
 
 		?>
 
-		<h1 class="post-title entry-title"><?php the_title(); ?></h1>
+		<!-- <h1 class="post-title entry-title"><?php the_title(); ?></h1> -->
 
 		<?php
 
