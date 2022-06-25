@@ -14,7 +14,7 @@ if ( have_posts() ) :
 
 	while ( have_posts() ): the_post();
 
-		TIELABS_HELPER::get_template_part( 'templates/single-post/content-no-title' );
+		TIELABS_HELPER::get_template_part( 'templates/single-post/content' );
 
 	endwhile;
 
