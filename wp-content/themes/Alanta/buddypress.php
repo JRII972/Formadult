@@ -22,7 +22,7 @@ get_header(); ?>
 					<?php do_action( 'TieLabs/before_entry_head' ); ?>
 
 					<div class="entry-header">
-						<h1 class="name post-title entry-title"><?php the_title(); ?></h1>
+						
 					</div><!-- .entry-header /-->
 
 					<?php do_action( 'TieLabs/after_entry_head' ); ?>
