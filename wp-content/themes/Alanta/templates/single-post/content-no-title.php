@@ -30,7 +30,7 @@ defined( 'ABSPATH' ) || exit; // Exit if accessed directly
 	<article id="the-post" <?php tie_post_class( 'container-wrapper post-content', false, false, true ); ?>>
 
 		<div class="entry-content entry clearfix">
-
+			THE POST WITHOUT TITLE
 			<?php
 				/**
 				 * TieLabs/before_post_content hook.
