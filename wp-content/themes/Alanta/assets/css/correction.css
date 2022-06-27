@@ -332,3 +332,7 @@ a:hover{
     display: flex;
     flex-direction: column;
 }
+
+.avatar.avatar-30.photo{
+    margin-bottom: 10px;
+}
