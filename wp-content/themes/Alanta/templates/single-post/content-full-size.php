@@ -16,6 +16,7 @@ defined( 'ABSPATH' ) || exit; // Exit if accessed directly
 
 ?>
 
+
 <div <?php tie_content_column_attr(); ?>>
 
 	<?php
