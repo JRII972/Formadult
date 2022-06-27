@@ -1,7 +1,7 @@
 <?php
 /**
- * Template Name: Formation
- * Template Post Type: formations
+ * Template Name: Full Size
+ * Template Post Type: post, page
  *
  * @package WordPress
  * @subpackage Twenty_Twenty
