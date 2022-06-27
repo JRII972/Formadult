@@ -12,7 +12,7 @@ defined( 'ABSPATH' ) || exit; // Exit if accessed directly
 
 get_header(); ?>
 <style> 
-.site-content .container{
+.site-content.container{
 	max-width : 100%;
 	padding-left : 0px;
 	padding-right : 0px;
