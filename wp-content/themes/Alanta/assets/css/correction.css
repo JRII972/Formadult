@@ -346,6 +346,6 @@ a:hover{
     display: none;
 }
 
-.wpforms-field > *{
-    margin: auto;
+.wpforms-field.wpforms-field-name > *, .wpforms-field.wpforms-field-name > * > *{
+    margin: auto!important;
 }
