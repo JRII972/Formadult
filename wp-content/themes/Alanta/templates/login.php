@@ -81,10 +81,10 @@ if ( is_user_logged_in() ){
 				foreach ( $logged_in_links as $link_id => $link_data ){
 					echo '<li><a href="'. esc_url( $link_data['link'] ) .'"><span class="'. $link_data['icon'] .'" aria-hidden="true"></span> '. $link_data['text'] .'</a></li>';
 				}
-
+				echo '<li><a href="'. esc_url( 'e-box.projetforma.com' ) .'"><span class="" aria-hidden="true"></span> Espace Foramtion </a></li>';
 				echo '</ul>';
 			}
-			echo '<li><a href="'. esc_url( 'e-box.projetforma.com' ) .'"><span class="" aria-hidden="true"></span> Espace Foramtion </a></li>';
+			
 
 			do_action( 'TieLabs/Login/after_links' );
 		?>
