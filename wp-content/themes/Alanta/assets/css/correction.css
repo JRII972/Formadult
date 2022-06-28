@@ -345,3 +345,7 @@ a:hover{
 .current {    
     display: none;
 }
+
+.wpforms-field > *{
+    margin: auto;
+}
