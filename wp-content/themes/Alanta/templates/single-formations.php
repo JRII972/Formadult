@@ -182,7 +182,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 								</div>
 							</div>
 						</div>
-						
+						<?php endif;  ?>
 						<div id="pdf" class="product__tabs-panel js-tab-content is-active">
 							<div class="product__tabs-header "><span
 									class="u-mb0 u-txt-light u-txt-semibold">PLUS D’INFORMATIONS </span></div>
@@ -197,16 +197,13 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 										</ul>
 										<br/>
 										
-
-										<?php endif; 
-						if(rwmb_meta( 'formation_pdf' ) != null): 
-						?>Documents :
+									<?php if(rwmb_meta( 'formation_pdf' ) != null):  ?>
+											Documents :
 									<div>
-									
-									<?php $files = rwmb_meta( 'formation_pdf' ); ?>
-										<?php foreach ( $files as $file ) : ?>
-											<li><a href="<?= $file['url']; ?>"><?= ucfirst(substr($file['name'], 0, strlen($file['name']) - 4)); ?></a></li>
-										<?php endforeach ?>
+										<?php $files = rwmb_meta( 'formation_pdf' ); ?>
+											<?php foreach ( $files as $file ) : ?>
+												<li><a href="<?= $file['url']; ?>"><?= ucfirst(substr($file['name'], 0, strlen($file['name']) - 4)); ?></a></li>
+											<?php endforeach ?>
 									</div>
 									<?php endif;  ?>
 								</div>
