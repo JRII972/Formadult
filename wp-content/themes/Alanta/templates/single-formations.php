@@ -349,8 +349,9 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 										data-href="https://www.Form Adult.fr/espace-client/ma-selection"><span
 											class="cta-default cta-default--main cta-default--block u-txt-size-18"><span
 												class="u-txt-bold"> Demander un devis </span></span></div>
-									<div class="u-txt-center u-mbs cursor-pointer" ><a href="<?= get_site_url() . '/grille-tarifaire' ?>"><span
-											class="u-txt-underline-on-hover">Grille tarifaire</span></a></div>
+									<div class="u-txt-center u-mbs cursor-pointer" ><a href="<?= get_site_url() . '/grille-tarifaire' ?>">
+									
+									</a></div>
 								</div>
 							</div>
 							<div class="product__tabs-sections page_speed_150797605">
@@ -494,59 +495,15 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 															<span class="u-txt-grey bt-flex bt-more ">Date à définir selon la demande et le nombre de participants </span>
 															
 														</div>
-														
-														<div class="sessions__col sessions_text"><span class="u-txt-session-available">P12 participants maximum</span>
-																<div class="tooltip-help tooltip-help--right tooltipstered"
-																	style="cursor: default;">
-																	<div
-																		class="tooltipster-base tooltipster-bases tooltipster-sidetip tooltipster-bottom tooltipster-fade">
-																		<div class="tooltipster-box">
-																			<div class="tooltipster-content">
-																				<p>Date à définir selon la demande et le nombre de participants .</p>
-																			</div>
-																		</div>
-																		<div class="tooltipster-arrow">
-																			<div class="tooltipster-arrow-uncropped">
-																				<div class="tooltipster-arrow-border"></div>
-																				<div class="tooltipster-arrow-background"></div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</span></div>
+														<div class="sessions__col sessions_text"><span class="u-txt-session-available">12 participants maximum</span></div>
 														<div class="sessions__col">
-															<div class="sessions__cta u-txt-center"><span>
-															<a href="" >
-																S'inscrire
-																</a>
-									</span>
+															<div class="sessions__cta u-txt-center"><span 
+																	class="cta-default cta-default--main">
+																	<a href="" >S'inscrire</a></span>
 															</div>
 														</div>
 													</div>
-													<div id="sessions_item_2" class="sessions__details u-collapse">
-														<div
-															class="sessions__cols grid__cpf {% if product.isCpf != true %} notCpf {% endif %}">
-															<div class="u-txt-left mgl15">
-																<p class="u-txt-dark">Détail des dates <br> pour cette session :
-																</p>
-																<ul class="reset-list u-txt-grey u-txt-size-14">
-																	<li>Du 24 août au 25 août 2022</li>
-																	<li>Du 19 sept. au 20 sept. 2022</li>
-																	<li>Du 13 oct. au 14 oct. 2022</li>
-																	<li>Du 09 nov. au 10 nov. 2022</li>
-																</ul>
-															</div>
-															<div class="u-txt-left">
-																<div class="u-mt"><span
-																		class="u-txt-grey location u-txt-size-14"><i
-																			class="icon-marker"></i> Le lien de connexion à la
-																		formation à distance sera envoyé au participant quelques
-																		jours avant le début de sa formation. </span></div>
-															</div>
-															<div class="u-txt-left"></div>
-															<div class="u-txt-left"></div>
-														</div>
-													</div>
+													
 												</li>
 												
 											</ul>
