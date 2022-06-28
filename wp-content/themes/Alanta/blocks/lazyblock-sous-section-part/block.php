@@ -7,7 +7,7 @@
             data-href="<?= htmlentities($attributes['titre'])?>">
             <h3 class="bgBlueTitle u-mb0">
             <i class="fa-solid " style="padding-left: 10px;"></i> 
-                <?= $attributes['titre'] ?> TITRE</h3>
+                <?= $attributes['titre'] ?></h3>
         </div>
     </div>
     <div class="product__box wysiwyg u-bdt-none " 
