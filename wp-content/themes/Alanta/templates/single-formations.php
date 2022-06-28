@@ -395,7 +395,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						<div style="display: flex;">
 							<?php $images = rwmb_meta( 'formation_image_sup_prix', ['limit' => 1] ) ?>
 							<?php $image = reset( $images ) ?>
-							<img src="<?= $image['url']; ?>">
+							<img style="margin: auto;" src="<?= $image['url']; ?>">
 						</div>
 						<hr class="u-hr">
 						<div class="u-mt u-txt-center">
