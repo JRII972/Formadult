@@ -341,3 +341,7 @@ a:hover{
     list-style: none!important;
 
 }
+
+.current {    
+    display: none;
+}
