@@ -17,6 +17,12 @@ get_header(); ?>
 	padding-left : 0px;
 	padding-right : 0px;
 }
+.entry-header-outer{
+	display: none;
+}
+#content{
+	margin: 0px;
+}
 </style>
 <?php
 

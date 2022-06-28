@@ -189,22 +189,20 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							<div class="product__tabs-sections">
 								<div class="u-mts u-mbm u-txt-center">
 									<span class="u-txt-grey">
-										Ici vous retrouverez plus d'information <br/> sur cette formation
 										<ul style="text-align: left">
-											<li> <b>ORGANISATION</b> <br/> Nous nous adaptons à votre planning , à votre lieu </li>
 											<li> <b>ACCESSIBILITE AUX PERSONNES HANDICAPÉES</b> <br/> « Les personnes atteintes de handicap souhaitant suivre cette formation sont invitées à nous contacter directement, afin d’étudier ensemble les possibilités de suivre la formation. » ( Lien renvoie vers les besoins spécifique ) </li>
 											<li> <a href="projetforma.com/mediation/"><b>MEDIATION</b> </a></li>
 										</ul>
 										<br/>
-										
+									</span>	
 									<?php if(rwmb_meta( 'formation_pdf' ) != null):  ?>
 											Documents :
-									<div>
-										<?php $files = rwmb_meta( 'formation_pdf' ); ?>
-											<?php foreach ( $files as $file ) : ?>
-												<li><a href="<?= $file['url']; ?>"><?= ucfirst(substr($file['name'], 0, strlen($file['name']) - 4)); ?></a></li>
-											<?php endforeach ?>
-									</div>
+										<div>
+											<?php $files = rwmb_meta( 'formation_pdf' ); ?>
+												<?php foreach ( $files as $file ) : ?>
+													<li><a href="<?= $file['url']; ?>"><?= ucfirst(substr($file['name'], 0, strlen($file['name']) - 4)); ?></a></li>
+												<?php endforeach ?>
+										</div>
 									<?php endif;  ?>
 								</div>
 							</div>
@@ -340,18 +338,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 
 									</div>
 								</div>
-								<div class="product__tabs-section">
-									<hr class="u-hr">
-									
-									<div class="u-mb" id="btnAddToCart"
-										onclick="dataLayer.push({'event': 'genericEvent', 'eventCategory': 'Ecommerce', 'eventAction': 'Add to Cart', 'eventLabel': 'Subscribe Inter', 'ecommerce': { 'currencyCode': 'EUR', 'add': { 'products': [{ 'id': '8100', 'name': 'Conduite du changement', 'brand': 'Form Adult', 'category': 'Conduite du changement/Accompagnement au changement/Conduire le changement', 'variant': '2022', 'price': '4570.00' }]}}});Form AdultAddToCart(369860, $('#sessionId').val(), this.id);"
-										data-href="https://www.Form Adult.fr/espace-client/ma-selection"><span
-											class="cta-default cta-default--main cta-default--block u-txt-size-18"><span
-												class="u-txt-bold"> Demander un devis </span></span></div>
-									<div class="u-txt-center u-mbs cursor-pointer" ><a href="<?= get_site_url() . '/grille-tarifaire' ?>">
-									
-									</a></div>
-								</div>
+								
 							</div>
 							<div class="product__tabs-sections page_speed_150797605">
 								<div class="product__tabs-section page_speed_150797605">
@@ -405,7 +392,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						endif;
 						?>
 						<hr class="u-hr">
-						<div>
+						<div style="display: flex;">
 							<?php $images = rwmb_meta( 'formation_image_sup_prix', ['limit' => 1] ) ?>
 							<?php $image = reset( $images ) ?>
 							<img src="<?= $image['url']; ?>">
