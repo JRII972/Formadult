@@ -336,3 +336,8 @@ a:hover{
 .avatar.avatar-30.photo{
     margin-bottom: 10px;
 }
+
+.product__objectives ul li{
+    list-style: none!important;
+
+}
