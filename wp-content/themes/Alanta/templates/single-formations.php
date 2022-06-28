@@ -129,7 +129,10 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 					<div class="product__header-sidebar">
 						<div class="product__ctas " >
 							<a target="_blank">
-								<img src="<?= $bannerImg['url'] ?>" >
+							<?php $images = rwmb_meta( 'my_field_id', ['size' => 'thumbnail'] ); ?>
+							<?php foreach ( $images as $image ) : ?>
+								<img src="<?= $image['url']; ?>">
+							<?php endforeach ?>
 							</a>
 						</div>
 					</div>
