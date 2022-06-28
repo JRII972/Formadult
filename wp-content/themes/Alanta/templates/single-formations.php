@@ -475,8 +475,9 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 								<div data-xhr-url="/ajax/sessions?productId=369860&amp;" class="sessions js-sessions u-myl">
 									<div class="sessions__head">
 										<div class="sessions__title">
-											<h2 class="tt-2">Dates et villes</h2>
+											<h2 class="tt-2">Dates et Délais d’accès</h2>
 											<div class="pdb10 u-txt-red">Mise à jour le <?= $MAJ ?></div>
+											<p>Les inscriptions doivent être réalisées au plus tard une semaine avant le début de la formation.</p>
 										</div>
 										
 										
@@ -490,71 +491,21 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 													data-startat="2022-08-24 00:00:00" data-endat="2022-11-10 00:00:00">
 													<div class="sessions__cols">
 														<div class="sessions__col">
-															<span class="u-txt-grey bt-flex bt-more ">Du 24 août au 10 nov. 2022</span>
+															<span class="u-txt-grey bt-flex bt-more ">Date à définir selon la demande et le nombre de participants </span>
 															
 														</div>
-														<div class="">
-															<div class="sessions__price"><strong>4 570,00 € HT</strong></div>
-														</div>
-														<div class="sessions__col sessions_text"><span class="u-txt-session-available">Places
-																disponibles <br><span class="u-txt-grey">Session garantie</span>
-																<div class="tooltip-help tooltip-help--right tooltipstered"
-																	style="cursor: default;">
-																	<div
-																		class="tooltipster-base tooltipster-bases tooltipster-sidetip tooltipster-bottom tooltipster-fade">
-																		<div class="tooltipster-box">
-																			<div class="tooltipster-content">
-																				<p>Nous réalisons 96% des sessions
-																					garanties.<br> est possible que,
-																					pour des raisons pédagogiques, nous
-																					estimions que la session ne peut-être
-																					maintenue, nous vous proposerons alors de
-																					vous reporter sur une autre date à distance
-																					ou dans une ville proche.</p>
-																			</div>
-																		</div>
-																		<div class="tooltipster-arrow">
-																			<div class="tooltipster-arrow-uncropped">
-																				<div class="tooltipster-arrow-border"></div>
-																				<div class="tooltipster-arrow-background"></div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</span></div>
+														<div class="sessions__col sessions_text"><span class="u-txt-session-available">12 participants maximum</span>
+																<div>
 														<div class="sessions__col">
-															<div class="sessions__cta u-txt-center"><span data-checkyear="true"
-																	id="session18197810"
-																	onclick="if(checkCurrentYear(this.id, 369860, 2022)){ dataLayer.push({'event': 'genericEvent', 'eventCategory': 'Ecommerce', 'eventAction': 'Add to Cart', 'eventLabel': 'Subscribe Date', 'ecommerce': { 'currencyCode': 'EUR', 'add': { 'products': [{ 'id': '8100', 'name': 'Conduite du changement', 'brand': 'cegos', 'category': 'Conduite du changement/Accompagnement au changement/Conduire le changement', 'variant': '2022', 'price': '4570.00' }]}}}); cegosAddToCart(369860, 18197810, this.id);}"
-																	data-href="https://www.cegos.fr/espace-client/inscription"
-																	class="cta-default cta-default--main">S'inscrire</span>
+															<div class="sessions__cta u-txt-center"><span data-checkyear="true">
+																<a href="" >
+																S'inscrire
+																</a>
+															</span>
 															</div>
 														</div>
 													</div>
-													<div id="sessions_item_2" class="sessions__details u-collapse">
-														<div
-															class="sessions__cols grid__cpf {% if product.isCpf != true %} notCpf {% endif %}">
-															<div class="u-txt-left mgl15">
-																<p class="u-txt-dark">Détail des dates <br> pour cette session :
-																</p>
-																<ul class="reset-list u-txt-grey u-txt-size-14">
-																	<li>Du 24 août au 25 août 2022</li>
-																	<li>Du 19 sept. au 20 sept. 2022</li>
-																	<li>Du 13 oct. au 14 oct. 2022</li>
-																	<li>Du 09 nov. au 10 nov. 2022</li>
-																</ul>
-															</div>
-															<div class="u-txt-left">
-																<div class="u-mt"><span
-																		class="u-txt-grey location u-txt-size-14"><i
-																			class="icon-marker"></i> Le lien de connexion à la
-																		formation à distance sera envoyé au participant quelques
-																		jours avant le début de sa formation. </span></div>
-															</div>
-															<div class="u-txt-left"></div>
-															<div class="u-txt-left"></div>
-														</div>
-													</div>
+													
 												</li>
 												
 											</ul>
