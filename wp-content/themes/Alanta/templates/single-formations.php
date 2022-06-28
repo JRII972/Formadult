@@ -128,7 +128,8 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 					</div>
 					<div class="product__header-sidebar">
 						<div class="product__ctas " >
-							<a target="#">
+							<a target="#"> 
+								NO IMAGE
 							<?php $images = rwmb_meta( 'image_banniere', ['size' => 'thumbnail'] ); ?>
 							<?php foreach ( $images as $image ) : ?>
 								<img src="<?= $image['url']; ?>">
