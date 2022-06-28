@@ -130,14 +130,15 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						<div class="product__ctas " >
 							<a target="#"> 
 								NO IMAGE
-							<?php $images = rwmb_meta( 'image_banniere', ['size' => 'thumbnail'] ); ?>
+							<?php $images = rwmb_meta( 'formation_image_banniere', ['size' => 'thumbnail'] ); ?>
 							<?php foreach ( $images as $image ) : ?>
-								<img src="<?= $image['url']; ?>">
+							<img src="<?= $image['url']; ?>">
 							<?php endforeach ?>
-							<?php rwmb_the_value( 'image_banniere', ['size' => 'thumbnail'] ) ?>
-							<?php $images = rwmb_meta( 'image_banniere', ['limit' => 1] ) ?>
+							<?php rwmb_the_value( 'formation_image_banniere', ['size' => 'thumbnail'] ) ?>
+							<?php $images = rwmb_meta( 'formation_image_banniere', ['limit' => 1] ) ?>
 							<?php $image = reset( $images ) ?>
 							<img src="<?= $image['url']; ?>">
+							<?=$bannerImg['url']?>
 							</a>
 						</div>
 					</div>
