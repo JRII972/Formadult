@@ -187,7 +187,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						?>
 						<div id="pdf" class="product__tabs-panel js-tab-content is-active">
 							<div class="product__tabs-header "><span
-									class="u-mb0 u-txt-light u-txt-semibold">Plus d'inforamtion</span></div>
+									class="u-mb0 u-txt-light u-txt-semibold">PLUS D’INFORMATIONS </span></div>
 							<div class="product__tabs-sections">
 								<div class="u-mts u-mbm u-txt-center">
 									<span class="u-txt-grey">
@@ -561,6 +561,12 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 					
 					
 					<div id="intervenants" class="part-section" style="display: none;">
+						<div>
+							<p>
+							ProjetForMa s’appuie sur une équipe pédagogique composée de formateurs permanents auxquels se joignent des intervenants ponctuels spécialisés experts dans les domaines dans lesquels ils interviennent et issus du monde de l’entreprise avec une pratique avérée des métiers. Ils maitrisent tous la pédagogie des adultes et de l’alternance ainsi que l’individualisation des apprentissages dans un groupe d’apprenant. <br/>
+							Pour vous accompagner efficacement  :
+							</p>
+						</div>
 						<p>
 							
 							<?php 
