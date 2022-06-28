@@ -5,7 +5,7 @@
     <?= $attributes['titre-court'] ?></div>
     <div id="<?= htmlentities($attributes['titre-court']) ?>" class="product__section js-product-section">
     
-        <h3 class="tt-2 <?= $attributes['icon'] ?>"> 
+        <h3 style="font-size=24px" class="tt-2 <?= $attributes['icon'] ?>"> 
         <i class="fa-solid <?= $attributes['icon']?>" style="padding-left: 10px;"></i> 
         <?= $attributes['titre-long'] ?> </h2>
         
