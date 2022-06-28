@@ -192,7 +192,11 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 								<div class="u-mts u-mbm u-txt-center">
 									<span class="u-txt-grey">
 										Ici vous retrouverez plus d'information sur cette formation
-										
+										<ul>
+											<li> <b>ORGANISATION</b> <br/> Nous nous adaptons à votre planning , à votre lieu </li>
+											<li> <b>ACCESSIBILITE AUX PERSONNES HANDICAPÉES</b> <br/> « Les personnes atteintes de handicap souhaitant suivre cette formation sont invitées à nous contacter directement, afin d’étudier ensemble les possibilités de suivre la formation. » ( Lien renvoie vers les besoins spécifique ) </li>
+											<li> <a href="projetforma.com/mediation/"><b>MEDIATION</b> </a></li>
+										</ul>
 									<div>
 									<?php $files = rwmb_meta( 'formation_pdf' ); ?>
 										<?php foreach ( $files as $file ) : ?>

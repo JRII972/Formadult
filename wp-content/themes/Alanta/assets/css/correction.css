@@ -337,7 +337,7 @@ a:hover{
     margin-bottom: 10px;
 }
 
-.product__objectives ul li{
+.product__objectives ul li, .product__program ul li{
     list-style: none!important;
 
 }
