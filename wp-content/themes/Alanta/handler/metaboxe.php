@@ -104,6 +104,14 @@ function Référence_formation( $meta_boxes ) {
                 'post_type'  => 'formateurs',
                 'field_type' => 'checkbox_list',
             ],
+            [
+                'type'             => 'image',
+                'name'             => esc_html__( 'Image Bannière', 'formAdult' ),
+                'id'               => $prefix . 'image_sup_prix',
+                'desc'             => esc_html__( 'Image sous le prix', 'formAdult' ),
+                'max_file_uploads' => 1,
+                'force_delete'     => true,
+            ],
         ],
     ];
 

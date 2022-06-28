@@ -406,6 +406,12 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						endif;
 						?>
 						<hr class="u-hr">
+						<div>
+							<?php $images = rwmb_meta( 'formation_image_sup_prix', ['limit' => 1] ) ?>
+							<?php $image = reset( $images ) ?>
+							<img src="<?= $image['url']; ?>">
+						</div>
+						<hr class="u-hr">
 						<div class="u-mt u-txt-center">
 							<p class="u-txt-grey u-txt-size-16 u-mbs">Partager cette formation</p>
 						</div>
