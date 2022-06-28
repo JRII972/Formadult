@@ -106,7 +106,7 @@ function Référence_formation( $meta_boxes ) {
             ],
             [
                 'type'             => 'image',
-                'name'             => esc_html__( 'Image Bannière', 'formAdult' ),
+                'name'             => esc_html__( 'Image ss prix', 'formAdult' ),
                 'id'               => $prefix . 'image_sup_prix',
                 'desc'             => esc_html__( 'Image sous le prix', 'formAdult' ),
                 'max_file_uploads' => 1,
