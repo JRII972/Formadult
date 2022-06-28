@@ -84,7 +84,7 @@ if ( is_user_logged_in() ){
 
 				echo '</ul>';
 			}
-
+			echo '<li><a href="'. esc_url( 'e-box.projetforma.com' ) .'"><span class="" aria-hidden="true"></span> Espace Foramtion </a></li>';
 
 			do_action( 'TieLabs/Login/after_links' );
 		?>
