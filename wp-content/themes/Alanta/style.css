@@ -30,3 +30,11 @@
 	--section-color: #f4f4f4;
 	--title-color: red;
 }
+
+.main-nav-menu{
+	text-transform: capitalize!important;
+}
+
+.main-content {
+	padding: none!important;
+}
