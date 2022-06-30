@@ -331,9 +331,9 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 										<div class="u-txt-right">
 											<div class="u-txt-icon"><i
 													class="icon-euro u-txt-grey-600"></i><span
-													class="u-txt-semibold"> Prix - <a
+													class="u-txt-semibold"> Tarif - <a
 														href="#intraPackage" data-modal-open=""
-														class="u-txt-grey">Par jour, sans options </a></span></div>
+														class="u-txt-grey">Prix total / Personne </a></span></div>
 										</div>
 										<div class="width-100-text-right"><span
 												class="product__price product__price__inter"
