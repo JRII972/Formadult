@@ -31,10 +31,10 @@ define( 'DB_NAME', 'u213337140_AEF1z' );
 define( 'DB_USER', 'u213337140_Wvtz0' );
 
 /** Mot de passe de la base de données MySQL. */
-define( 'DB_PASSWORD', '7esiogE4T2' );
+define( 'DB_PASSWORD', 'V0]tF795w+' );
 
 /** Adresse de l’hébergement MySQL. */
-define( 'DB_HOST', 'sql801.main-hosting.eu' );
+define( 'DB_HOST', 'localhost' );
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
