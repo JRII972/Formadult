@@ -355,12 +355,8 @@ a:hover{
 .wp-block-image {
     height: 100%;
     }
-
-.wp-block-image figure {
-    height: 100%;
-    }
     
-.wp-block-image figure img{
+.wp-block-image  img{
 object-fit: contain;
 margin: auto;    
     
