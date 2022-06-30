@@ -470,10 +470,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							</li>
 						</ul>
 					</div>
-					<?php the_content(); ?>
-
-
-					
+			
 					<div id="dates" class="part-section" style="display: none;">
 						<div class="wrap">
 							<div id="sessions">
@@ -500,10 +497,10 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 															
 														</div>
 														<div class="sessions__col sessions_text"><span class="u-txt-session-available">12 participants maximum</span></div>
-														<div class="sessions__col">
+														<div class="sessions__col" style="width: fit-content;">
 															<div class="sessions__cta u-txt-center"><span 
-																	class="cta-default cta-default--main">
-																	<a href="" >S'inscrire</a></span>
+																	class="cta-default " style="background: 2fadbb;">
+																	<a href="https://projetforma.com/formulaire-dinscription/" style="color: white;">S'inscrire</a></span>
 															</div>
 														</div>
 													</div>
@@ -522,8 +519,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 					<div id="intervenants" class="part-section" style="display: none;">
 						<div>
 							<p>
-							ProjetForMa s’appuie sur une équipe pédagogique composée de formateurs permanents auxquels se joignent des intervenants ponctuels spécialisés experts dans les domaines dans lesquels ils interviennent et issus du monde de l’entreprise avec une pratique avérée des métiers. Ils maitrisent tous la pédagogie des adultes et de l’alternance ainsi que l’individualisation des apprentissages dans un groupe d’apprenant. <br/>
-							Pour vous accompagner efficacement  :
+							ProjetForMa s’appuie sur une équipe pédagogique composée de formateurs permanents  auxquels se joignent des intervenants ponctuels spécialisés experts dans les domaines dans  lesquels ils interviennent et issus du monde de l’entreprise avec une pratique avérée des  métiers. Ils maitrisent tous la pédagogie des adultes et de l’alternance ainsi que  l’individualisation des apprentissages dans un groupe d’apprenant pour vous accompagner  efficacement. 
 							</p>
 						</div>
 						<p>
@@ -539,7 +535,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						</p>
 					</div>
 					
-
+					<div style="margin-top: 30px;"><?php the_content(); ?></div>
 					
 					<?php
 						/**
