@@ -190,7 +190,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 								<div class="u-mts u-mbm u-txt-center">
 									<span class="u-txt-grey">
 										<ul style="text-align: left">
-											<li> <b href="projetforma.com/besoins-specifiques/">ACCESSIBILITE AUX PERSONNES HANDICAPÉES</b> 
+											<li> <a href="projetforma.com/besoins-specifiques/"><b>ACCESSIBILITE AUX PERSONNES HANDICAPÉES</b> </a>
 											<br/> Les personnes atteintes de handicap souhaitant suivre cette formation sont invitées à nous contacter directement, afin d’étudier ensemble les possibilités de suivre la formation. </li>
 											<li> <a href="projetforma.com/mediation/"><b>NOS ATOUTS</b> </a></li>
 										</ul>
