@@ -351,15 +351,15 @@ a:hover{
 }
 
 
-
 .wp-block-image {
     height: 100%;
     }
     
 .wp-block-image  img{
-object-fit: contain;
-margin: auto;    
-    
+    object-fit: contain;
+    text-align:center;
+    margin:auto;
+    display:flex;
 }
 
 div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms-container-full .wpforms-form select.wpforms-field-medium, div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium {

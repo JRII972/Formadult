@@ -190,9 +190,9 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 								<div class="u-mts u-mbm u-txt-center">
 									<span class="u-txt-grey">
 										<ul style="text-align: left">
-											<li> <a href="projetforma.com/besoins-specifiques/"><b>ACCESSIBILITE AUX PERSONNES HANDICAPÉES</b> </a>
+											<li> <a href="https://projetforma.com/besoins-specifiques/"><b>ACCESSIBILITE AUX PERSONNES HANDICAPÉES</b> </a>
 											<br/> Les personnes atteintes de handicap souhaitant suivre cette formation sont invitées à nous contacter directement, afin d’étudier ensemble les possibilités de suivre la formation. </li>
-											<li style="margin-top: 23px;"> <a href="projetforma.com/mediation/"><b>NOS ATOUTS</b> </a></li>
+											<li style="margin-top: 23px;"> <a href="https://projetforma.com/mediation/"><b>NOS ATOUTS</b> </a></li>
 										</ul>
 										<br/>
 									</span>	
@@ -281,12 +281,12 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 									<hr class="u-hr">
 									<div class="u-mtm u-mbm"
 										>
-										<a href="projetforma.com/formulaire-dinscription"
+										<a href="https://projetforma.com/formulaire-dinscription"
 											class="cta-default cta-default--main cta-default--block u-txt-size-18"><span
 												class="u-txt-bold">Je m'inscris</span></a></div>
 									<div class="u-mtm u-mbm"
 										>
-										<a href="projetforma.com/contact"
+										<a href="https://projetforma.com/contact"
 											class="cta-default cta-default--main cta-default--block u-txt-size-18"><span
 												class="u-txt-bold">Nous contacter</span></a></div>
 									
@@ -354,12 +354,12 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 									<hr class="u-hr">
 									<div class="u-mtm u-mbm"
 										>
-										<a href="projetforma.com/formulaire-dinscription"
+										<a href="https://projetforma.com/formulaire-dinscription"
 											class="cta-default cta-default--main cta-default--block u-txt-size-18"><span
 												class="u-txt-bold">Je m'inscris</span></a></div>
 									<div class="u-mtm u-mbm"
 										>
-										<a href="projetforma.com/contact"
+										<a href="https://projetforma.com/contact"
 											class="cta-default cta-default--main cta-default--block u-txt-size-18"><span
 												class="u-txt-bold">Nous contacter</span></a></div>
 									
@@ -376,12 +376,12 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 										vous intéresse ? <br> Nous nous ferons un plaisir d'adapter notre formation a vos besoin !</span></div>
 									<div class="u-mtm u-mbm"
 										>
-										<a href="projetforma.com/formulaire-dinscription"
+										<a href="https://projetforma.com/formulaire-dinscription"
 											class="cta-default cta-default--main cta-default--block u-txt-size-18"><span
 												class="u-txt-bold">Je m'inscris</span></a></div>
 									<div class="u-mtm u-mbm"
 										>
-										<a href="projetforma.com/contact"
+										<a href="https://projetforma.com/contact"
 											class="cta-default cta-default--main cta-default--block u-txt-size-18"><span
 												class="u-txt-bold">Nous contacter</span></a></div>
 							</div>
@@ -399,7 +399,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 									
 										
 									<div class="u-mtm u-mbm" >
-										<a href="projetforma.com/contact"
+										<a href="https://projetforma.com/contact"
 											class="cta-default cta-default--main cta-default--block u-txt-size-18"><span
 												class="u-txt-bold">Demander un devis</span></a></div>
 								</div>
