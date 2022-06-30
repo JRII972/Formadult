@@ -470,7 +470,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							</li>
 						</ul>
 					</div>
-			
+					<div style="margin-top: 30px;"><?php the_content(); ?></div>
 					<div id="dates" class="part-section" style="display: none;">
 						<div class="wrap">
 							<div id="sessions">
@@ -536,7 +536,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						</p>
 					</div>
 					
-					<div style="margin-top: 30px;"><?php the_content(); ?></div>
+					
 					
 					<?php
 						/**
