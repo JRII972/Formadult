@@ -499,8 +499,8 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 														<div class="sessions__col sessions_text"><span class="u-txt-session-available">12 participants maximum</span></div>
 														<div class="sessions__col">
 															<div class="sessions__cta u-txt-center"><span 
-																	class="cta-default cta-default--main" style="color: white;">
-																	<a href="">S'inscrire</a></span>
+																	class="cta-default cta-default--main" >
+																	<a href="https://projetforma.com/formulaire-dinscription/" style="color: white;">S'inscrire</a></span>
 															</div>
 														</div>
 													</div>

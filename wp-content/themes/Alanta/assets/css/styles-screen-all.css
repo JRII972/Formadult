@@ -6203,12 +6203,7 @@
             color: #fff !important
       }
 
-      .cta-default--main:hover,
-      .cta-default--pdf:hover,
-      .cta-default--red:hover {
-            background: var(--main-item-color);
-      }
-
+      
       .cta-default--white {
             background: #fff;
             color: var(--main-item-color) !important;
