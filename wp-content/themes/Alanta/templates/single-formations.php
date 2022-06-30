@@ -190,8 +190,9 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 								<div class="u-mts u-mbm u-txt-center">
 									<span class="u-txt-grey">
 										<ul style="text-align: left">
-											<li> <b>ACCESSIBILITE AUX PERSONNES HANDICAPÉES</b> <br/> « Les personnes atteintes de handicap souhaitant suivre cette formation sont invitées à nous contacter directement, afin d’étudier ensemble les possibilités de suivre la formation. » ( Lien renvoie vers les besoins spécifique ) </li>
-											<li> <a href="projetforma.com/mediation/"><b>MEDIATION</b> </a></li>
+											<li> <b href="projetforma.com/besoins-specifiques/">ACCESSIBILITE AUX PERSONNES HANDICAPÉES</b> 
+											<br/> Les personnes atteintes de handicap souhaitant suivre cette formation sont invitées à nous contacter directement, afin d’étudier ensemble les possibilités de suivre la formation. </li>
+											<li> <a href="projetforma.com/mediation/"><b>NOS ATOUTS</b> </a></li>
 										</ul>
 										<br/>
 									</span>	
@@ -280,9 +281,16 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							<div class="product__tabs-sections page_speed_1530629063">
 								<div class="product__tabs-section">
 									<hr class="u-hr">
-									<div onclick="dataLayer.push({'event': 'genericEvent', 'eventCategory': 'Product', 'eventAction': 'Contact', 'eventLabel': 'Training manager'});"
-										class="u-mt u-mb u-txt-center"><a href="<?= get_site_url() ?>/contact"
-											class="u-txt-grey u-txt-underline-on-hover">Nous contacter</a></div>
+									<div>
+										<a href="https://projetforma.com/formulaire-dinscription">
+										<span class="ghostkit-button ghostkit-button-md ghostkit-custom-Z1If8eI"><span class="ghostkit-button-text">Inscription</span></span>
+									</a>
+										</div>
+									<div class="u-mtm u-mbm"
+										>
+										<a href="projetforma.com/contact"
+											class="cta-default cta-default--main cta-default--block u-txt-size-18"><span
+												class="u-txt-bold">Nous contacter</span></a></div>
 									
 								</div>
 							</div>
@@ -363,11 +371,16 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							<div class="product__tabs-sections">
 								<div class="u-mts u-mbm u-txt-center"><span class="u-txt-grey">Cette thématique
 										vous intéresse ? <br> Nous nous ferons un plaisir d'adapter notre formation a vos besoin !</span></div>
-								<div class="u-mtm u-mbm"
-									onclick="dataLayer.push({'event': 'genericEvent', 'eventCategory': 'Product', 'eventAction': 'Contact', 'eventLabel': 'Customized'})">
-									<a href="http://127.0.0.1:5500/contact?mode=sur-mesure"
-										class="cta-default cta-default--main cta-default--block u-txt-size-18"><span
-											class="u-txt-bold">Nous contacter</span></a></div>
+										<div>
+										<a href="https://projetforma.com/formulaire-dinscription">
+										<span class="ghostkit-button ghostkit-button-md ghostkit-custom-Z1If8eI"><span class="ghostkit-button-text">Inscription</span></span>
+									</a>
+										</div>
+									<div class="u-mtm u-mbm"
+										>
+										<a href="projetforma.com/contact"
+											class="cta-default cta-default--main cta-default--block u-txt-size-18"><span
+												class="u-txt-bold">Nous contacter</span></a></div>
 							</div>
 						</div>
 						<?php else:
@@ -380,9 +393,15 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 									<div class="u-mts u-mbm u-txt-center"><span class="u-txt-grey">
 										Malheureusement nous ne sommes pas en mesure de vous communiquer les informations tarifaire de cette formation. <br>
 										Cette thématique vous intéresse ? <br> Nous nous ferons un plaisir d'adapter notre formation a vos besoin !</span></div>
+									
+										<div>
+										<a href="https://projetforma.com/formulaire-dinscription">
+										<span class="ghostkit-button ghostkit-button-md ghostkit-custom-Z1If8eI"><span class="ghostkit-button-text">Inscription</span></span>
+									</a>
+										</div>
 									<div class="u-mtm u-mbm"
-										onclick="dataLayer.push({'event': 'genericEvent', 'eventCategory': 'Product', 'eventAction': 'Contact', 'eventLabel': 'Customized'})">
-										<a href="http://127.0.0.1:5500/contact?mode=sur-mesure"
+										>
+										<a href="projetforma.com/contact"
 											class="cta-default cta-default--main cta-default--block u-txt-size-18"><span
 												class="u-txt-bold">Nous contacter</span></a></div>
 								</div>
@@ -392,12 +411,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						endif;
 						?>
 						<hr class="u-hr">
-						<div style="display: flex;">
-							<?php $images = rwmb_meta( 'formation_image_sup_prix', ['limit' => 1] ) ?>
-							<?php $image = reset( $images ) ?>
-							<img style="margin: auto;" src="<?= $image['url']; ?>">
-						</div>
-						<hr class="u-hr">
+						
 						<div class="u-mt u-txt-center">
 							<p class="u-txt-grey u-txt-size-16 u-mbs">Partager cette formation</p>
 						</div>
