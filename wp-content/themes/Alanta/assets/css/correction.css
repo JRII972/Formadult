@@ -350,6 +350,17 @@ a:hover{
     display: none;
 }
 
-.wpforms-field.wpforms-field-name > *, .wpforms-field.wpforms-field-name > * > *{
-    margin: auto!important;
+
+
+.wp-block-image {
+    height: 100%;
+    }
+    selector * {
+    height: 100%;
+    }
+    
+    selector *  img{
+    object-fit: contain;
+    margin: auto;
+    
 }
