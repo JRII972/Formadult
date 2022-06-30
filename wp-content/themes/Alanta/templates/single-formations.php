@@ -118,9 +118,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							</li>
 							<?= $tags ?>
 														
-							<li  class="attributes__item tooltipstered" style="cursor: default;">
-								<i class="icon-cpf"></i><span>QUALIOPI</span>
-							</li>
+							
 							<li  class="attributes__item tooltipstered" style="cursor: default;">
 								<i class="material-symbols-outlined">update</i><span><?= the_modified_date() ?></span>
 							</li>
