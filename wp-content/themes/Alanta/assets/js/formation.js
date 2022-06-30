@@ -53,9 +53,11 @@ function product_section_trigger(obj){
     if (obj.classList.contains('is-active')){
         obj.classList.remove('is-active');
         document.getElementById(obj.dataset.href).style.display = 'none';
+        obj.style.display = 'block'
     }else{
         obj.classList.add('is-active');
         document.getElementById(obj.dataset.href).style.display = 'block';
+        obj.style.display = 'none'
     }
     
 }

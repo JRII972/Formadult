@@ -376,3 +376,7 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
 .product__section-trigger{
     height: fit-content;
 }
+
+.wp-block-lazyblock-section{
+    margin-bottom: 25px;
+}
