@@ -80,6 +80,10 @@ if( $slide_sidebar_desktop || $slide_sidebar_mobile ) : ?>
 									));
 							}
 						?>
+						<ul class="menu">
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-802">
+							<a href="https://e-box.projetforma.com/">E-Box</a></li>
+						</ul>
 					</div><!-- #mobile-menu /-->
 
 					<?php
