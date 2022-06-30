@@ -379,5 +379,5 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
 }
 
 .is-actives{
-    display: block;
+    display: block!important;
 }
