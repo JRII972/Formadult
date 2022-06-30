@@ -144,7 +144,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 					<div class="product__tabs-content">
 						<?php 
 						if(true): ?>
-						<div id="video" class="product__tabs-panel js-tab-content is-active">
+						<div id="video" class="product__tabs-panel js-tab-content is-actives">
 							<div class="product__tabs-header "><span
 									class="u-mb0 u-txt-light u-txt-semibold">Un petit apercu ?</span></div>
 							<div class="product__tabs-sections">
@@ -164,7 +164,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						$videos = rwmb_meta( 'my_field_id' );
 						if(rwmb_meta( 'my_field_id' ) != null): 
 						?>
-						<div id="video" class="product__tabs-panel js-tab-content is-active">
+						<div id="video" class="product__tabs-panel js-tab-content is-actives">
 							<div class="product__tabs-header "><span
 									class="u-mb0 u-txt-light u-txt-semibold">Un petit apercu ?</span></div>
 							<div class="product__tabs-sections">
@@ -183,7 +183,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							</div>
 						</div>
 						<?php endif;  ?>
-						<div id="pdf" class="product__tabs-panel js-tab-content is-active">
+						<div id="pdf" class="product__tabs-panel js-tab-content is-actives">
 							<div class="product__tabs-header "><span
 									class="u-mb0 u-txt-light u-txt-semibold">PLUS D’INFORMATIONS </span></div>
 							<div class="product__tabs-sections">

@@ -377,3 +377,7 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
 .wp-block-lazyblock-section{
     margin-bottom: 25px;
 }
+
+.is-actives{
+    display: block;
+}

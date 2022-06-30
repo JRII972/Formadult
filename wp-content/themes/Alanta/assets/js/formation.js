@@ -20,18 +20,7 @@ function show(obj) {
     obj.classList.add('none');
 }
     
-function tab_nav(obj){
-    console.log('nav tab')
-    console.log(obj.dataset.href)
-    var nav = document.getElementById(obj.dataset.href);
-    console.log(nav.classList.item(0));
-    unset_visible(nav.classList.item(0), 'is-active');
-    nav.classList.add('is-active');
 
-    unset_visible(obj.classList.item(0), 'is-active');
-    obj.classList.add('is-active');
-    
-}
 
 function unset_visible(ClassName, value = 'is--visible'){
     Array.from(document.getElementsByClassName(ClassName)).forEach(
@@ -56,18 +45,6 @@ function product_section_trigger(obj){
     }else{
         obj.classList.add('is-active');
         document.getElementById(obj.dataset.href).style.display = 'block';
-    }
-    
-}
-function product_section_trigger_delete(obj){
-    if (obj.classList.contains('is-active')){
-        obj.classList.remove('is-active');
-        document.getElementById(obj.dataset.href).style.display = 'none';
-        obj.style.display = 'block'
-    }else{
-        obj.classList.add('is-active');
-        document.getElementById(obj.dataset.href).style.display = 'block';
-        obj.style.display = 'none'
     }
     
 }
