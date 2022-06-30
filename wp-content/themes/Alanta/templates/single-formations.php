@@ -356,9 +356,16 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							<div class="product__tabs-sections page_speed_1530629063">
 								<div class="product__tabs-section">
 									<hr class="u-hr">
-									<div onclick="dataLayer.push({'event': 'genericEvent', 'eventCategory': 'Product', 'eventAction': 'Contact', 'eventLabel': 'Training manager'});"
-										class="u-mt u-mb u-txt-center"><a href="<?= get_site_url() ?>/contact"
-											class="u-txt-grey u-txt-underline-on-hover">Nous contacter</a></div>
+									<div>
+										<a href="https://projetforma.com/formulaire-dinscription">
+										<span class="ghostkit-button ghostkit-button-md ghostkit-custom-Z1If8eI"><span class="ghostkit-button-text">Inscription</span></span>
+									</a>
+										</div>
+									<div class="u-mtm u-mbm"
+										>
+										<a href="projetforma.com/contact"
+											class="cta-default cta-default--main cta-default--block u-txt-size-18"><span
+												class="u-txt-bold">Nous contacter</span></a></div>
 									
 								</div>
 							</div>
