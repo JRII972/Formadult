@@ -1,7 +1,7 @@
 <div id="<?= htmlentities($attributes['titre-court']) ?>s">
     
     <div class="product__section-trigger js-product-section-trigger"
-    onclick="product_section_trigger(this)" data-href="<?= htmlentities($attributes['titre-court']) ?>">
+    onclick="product_section_trigger_delete(this)" data-href="<?= htmlentities($attributes['titre-court']) ?>">
     <?= $attributes['titre-court'] ?></div>
     <div id="<?= htmlentities($attributes['titre-court']) ?>" class="product__section js-product-section">
     
