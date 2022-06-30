@@ -254,9 +254,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 											<div class="tt-3 u-mbs"><?= $Date ?></div>
 										</div>
 									</div>
-									<div class="training__info"><span class="u-txt-icon remote"><i
-												class="icon-plus-circle u-txt-red"></i>
-												<span>activité à distance</span></span></div>
+									
 								</div>
 								<hr class="u-hr">
 								<div class="product__tabs-section">
@@ -281,11 +279,11 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							<div class="product__tabs-sections page_speed_1530629063">
 								<div class="product__tabs-section">
 									<hr class="u-hr">
-									<div>
-										<a href="https://projetforma.com/formulaire-dinscription">
-										<span class="ghostkit-button ghostkit-button-md ghostkit-custom-Z1If8eI"><span class="ghostkit-button-text">Inscription</span></span>
-									</a>
-										</div>
+									<div class="u-mtm u-mbm"
+										>
+										<a href="projetforma.com/formulaire-dinscription"
+											class="cta-default cta-default--main cta-default--block u-txt-size-18"><span
+												class="u-txt-bold">Je m'inscris</span></a></div>
 									<div class="u-mtm u-mbm"
 										>
 										<a href="projetforma.com/contact"
@@ -300,7 +298,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						<div id="intra" class="product__tabs-panel js-tab-content <?= ($prix_inter > 0) ? : 'is-active' ?>">
 							<div class="product__tabs-header "><span
 									class="u-mb0 u-txt-light u-txt-semibold">
-									EN PRESENTIEL CHEZ NOUS</span></div>
+									EN PRESENTIEL CHEZ VOUS</span></div>
 							<div class="product__tabs-sections page_speed_574825364">
 								<div class="product__tabs-section">
 									<div class="flex-container no-compensation between-xs">
@@ -324,9 +322,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 											<div class="tt-3 u-mbs"><?= $Date ?></div>
 										</div>
 									</div>
-									<div class="training__info"><span class="u-txt-icon remote"><i
-												class="icon-plus-circle u-txt-red"></i>
-												<span>activité à distance</span></span></div>
+									
 								</div>
 								<hr class="u-hr">
 								<div class="product__tabs-section">
@@ -335,13 +331,13 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 										<div class="u-txt-right">
 											<div class="u-txt-icon"><i
 													class="icon-euro u-txt-grey-600"></i><span
-													class="u-txt-semibold"> Adaptation à vos locaux - <a
+													class="u-txt-semibold"> Prix - <a
 														href="#intraPackage" data-modal-open=""
-														class="u-txt-grey">En savoir plus</a></span></div>
+														class="u-txt-grey">Par jour, sans options </a></span></div>
 										</div>
 										<div class="width-100-text-right"><span
 												class="product__price product__price__inter"
-												id="price-with-margin"><strong><?= $prix_intra ?></strong> &nbsp;HT
+												id="price-with-margin"><strong><?= $prix_intra ?></strong> &nbsp;HT/Perso
 											</span></div>
 
 									</div>
@@ -356,11 +352,11 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							<div class="product__tabs-sections page_speed_1530629063">
 								<div class="product__tabs-section">
 									<hr class="u-hr">
-									<div>
-										<a href="https://projetforma.com/formulaire-dinscription">
-										<span class="ghostkit-button ghostkit-button-md ghostkit-custom-Z1If8eI"><span class="ghostkit-button-text">Inscription</span></span>
-									</a>
-										</div>
+									<div class="u-mtm u-mbm"
+										>
+										<a href="projetforma.com/formulaire-dinscription"
+											class="cta-default cta-default--main cta-default--block u-txt-size-18"><span
+												class="u-txt-bold">Je m'inscris</span></a></div>
 									<div class="u-mtm u-mbm"
 										>
 										<a href="projetforma.com/contact"
@@ -378,11 +374,11 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							<div class="product__tabs-sections">
 								<div class="u-mts u-mbm u-txt-center"><span class="u-txt-grey">Cette thématique
 										vous intéresse ? <br> Nous nous ferons un plaisir d'adapter notre formation a vos besoin !</span></div>
-										<div>
-										<a href="https://projetforma.com/formulaire-dinscription">
-										<span class="ghostkit-button ghostkit-button-md ghostkit-custom-Z1If8eI"><span class="ghostkit-button-text">Inscription</span></span>
-									</a>
-										</div>
+									<div class="u-mtm u-mbm"
+										>
+										<a href="projetforma.com/formulaire-dinscription"
+											class="cta-default cta-default--main cta-default--block u-txt-size-18"><span
+												class="u-txt-bold">Je m'inscris</span></a></div>
 									<div class="u-mtm u-mbm"
 										>
 										<a href="projetforma.com/contact"
@@ -401,16 +397,11 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 										Malheureusement nous ne sommes pas en mesure de vous communiquer les informations tarifaire de cette formation. <br>
 										Cette thématique vous intéresse ? <br> Nous nous ferons un plaisir d'adapter notre formation a vos besoin !</span></div>
 									
-										<div>
-										<a href="https://projetforma.com/formulaire-dinscription">
-										<span class="ghostkit-button ghostkit-button-md ghostkit-custom-Z1If8eI"><span class="ghostkit-button-text">Inscription</span></span>
-									</a>
-										</div>
-									<div class="u-mtm u-mbm"
-										>
+										
+									<div class="u-mtm u-mbm" >
 										<a href="projetforma.com/contact"
 											class="cta-default cta-default--main cta-default--block u-txt-size-18"><span
-												class="u-txt-bold">Nous contacter</span></a></div>
+												class="u-txt-bold">Demander un devis</span></a></div>
 								</div>
 							</div>
 								<?php
