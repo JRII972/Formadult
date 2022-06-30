@@ -368,3 +368,7 @@ a:hover{
 div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms-container-full .wpforms-form select.wpforms-field-medium, div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium {
     max-width: none!important;
 }
+
+.container-wrapper.widget.widget_block.widget_text {
+    padding-bottom: 0!important;
+  }
