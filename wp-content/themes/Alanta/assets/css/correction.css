@@ -381,3 +381,100 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
 .is-actives{
     display: block!important;
 }
+
+.Groupe_104_w_Class {
+	position: absolute;
+	width: 653px;
+	height: 183px;
+	left: 644px;
+	top: 159px;
+	overflow: visible;
+}
+
+.Composant_8__1__Class {
+	position: absolute;
+	width: 653px;
+	height: 139px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.titre {
+    left: 62px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 147px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(0,0,0,1);
+}
+
+.Composant_1__4_Class {
+    position: absolute;
+    width: 427px;
+    height: 66px;
+    left: 62px;
+    top: 51px;
+    overflow: visible;
+}
+
+.pexels-5590958_v_Class {
+    position: absolute;
+    width: 45px;
+    height: 41px;
+    left: 13px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Composant_9__1_Class {
+    position: absolute;
+    width: 653px;
+    height: 139px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Rectangle_15 {
+    position: absolute;
+    overflow: visible;
+    width: 653px;
+    height: 139px;
+    left: 0px;
+    top: 0px;
+}
+
+.Rectangle_15_Class {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(212,211,211,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.description {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 428px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(120,129,133,1);
+}
+
+#menu-components-wrap{
+    margin-top: 50px;
+}
