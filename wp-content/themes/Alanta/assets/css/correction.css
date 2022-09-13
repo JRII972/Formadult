@@ -475,18 +475,18 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
     color: rgba(120,129,133,1);
 }
 
-html:not([data-scroll='0']) #main-nav-menu {
-    margin-top: 15px;
-}
-
-html:not([data-scroll='0']) #menu-components-wrap .components li {
-    margin-top: 15px;
-}
-
 #main-nav-menu {
     margin-top: 80px;
 }
 
 #menu-components-wrap .components li {
     margin-top: 80px;
+}
+
+html:not([data-scroll='0']) #main-nav-menu {
+    margin-top: 15px;
+}
+
+html:not([data-scroll='0']) #menu-components-wrap .components li {
+    margin-top: 15px;
 }
