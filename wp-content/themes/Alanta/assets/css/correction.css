@@ -475,6 +475,6 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
     color: rgba(120,129,133,1);
 }
 
-#menu-components-wrap{
+html:not([data-scroll='0']) #menu-components-wrap{
     margin-top: 80px;
 }
