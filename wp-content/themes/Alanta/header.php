@@ -13,6 +13,7 @@ defined( 'ABSPATH' ) || exit; // Exit if accessed directly
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<script type="text/javascript" src="<?= get_template_directory_uri()?>/assets/js/formation.js?ver=6.0" id="formation-js"></script>
 	<script> 
+	document.documentElement.dataset.scroll = 0;
 document.addEventListener('scroll', () => {
     document.documentElement.dataset.scroll = window.scrollY;
 });
