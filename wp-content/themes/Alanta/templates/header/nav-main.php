@@ -47,6 +47,12 @@ if( tie_get_option( 'main_nav' ) || $header_layout == 1 || $header_layout == 4 )
 
 ?>
 
+<script> 
+document.addEventListener('scroll', () => {
+    document.documentElement.dataset.scroll = window.scrollY;
+});
+</script>
+
 <div class="main-nav-wrapper">
 	<nav id="main-nav" <?php echo ( $live_search_data_skin ); ?> class="<?php echo esc_attr( $main_menu_class ) ?>" <?php echo ( $line_height ) ?> aria-label="<?php esc_html_e( 'Primary Navigation', TIELABS_TEXTDOMAIN ); ?>">
 		<div class="container">
