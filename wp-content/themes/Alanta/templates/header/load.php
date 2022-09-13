@@ -29,7 +29,11 @@ if( tie_get_option( 'rainbow_header' ) ){
 }
 
 ?>
-
+<script> 
+	document.addEventListener('scroll', () => {
+		document.documentElement.dataset.scroll = window.scrollY;
+	});
+	</script>
 <header id="theme-header" <?php tie_header_class(); ?>>
 	<?php
 
