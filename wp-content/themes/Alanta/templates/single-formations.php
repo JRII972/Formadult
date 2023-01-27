@@ -110,10 +110,15 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							</div>
 							<div class="rating__count u-txt-blue-grey "> (<?= $formationNbrAvis?> avis) </div>
 						</a>
-						<div>
-							<img src="<?php echo bloginfo('template_url'); ?>/assets/images/qualiopi.png">
-						</div>
+						
 						<ul class="product__attributes attributes">
+						<div style="
+								height: 6em;
+								/* overflow: hidden; */
+								/* object-fit: scale-down; */
+							">
+							<img src="https://projetforma.com/wp-content/themes/Alanta/assets/images/qualiopi.png" style="height: 5em;">
+						</div>
 							<li class="attributes__item "><img
 									src="<?= esc_url(get_template_directory_uri()) ?>/assets/images/picto-a-distance-plus-presentiel.html"
 									alt="" loading="lazy">
