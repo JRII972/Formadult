@@ -460,20 +460,7 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
     shape-rendering: auto;
 }
 
-.description {
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    overflow: visible;
-    width: 428px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    color: rgba(120,129,133,1);
-}
+
 
 #main-nav-menu {
     margin-top: 80px;
