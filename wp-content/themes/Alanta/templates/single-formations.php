@@ -110,6 +110,9 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							</div>
 							<div class="rating__count u-txt-blue-grey "> (<?= $formationNbrAvis?> avis) </div>
 						</a>
+						<div>
+						<img src="<?php echo bloginfo('template_url'); ?>/assets/images/qualiopi.png">
+						</div>
 						<ul class="product__attributes attributes">
 							<li class="attributes__item "><img
 									src="<?= esc_url(get_template_directory_uri()) ?>/assets/images/picto-a-distance-plus-presentiel.html"
