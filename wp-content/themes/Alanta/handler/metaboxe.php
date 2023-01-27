@@ -99,14 +99,6 @@ function Référence_formation( $meta_boxes ) {
             [
                 'type'       => 'post',
                 'name'       => esc_html__( 'Formateurs', 'formAdult' ),
-                'id'         => $prefix . 'formateurs',
-                'desc'       => esc_html__( 'Liste des formateurs associer à cette formation', 'formAdult' ),
-                'post_type'  => 'formateurs',
-                'field_type' => 'checkbox_list',
-            ],
-            [
-                'type'       => 'post',
-                'name'       => esc_html__( 'Formateur', 'formAdult' ),
                 'id'         => $prefix . 'formateur',
                 'desc'       => esc_html__( 'Liste des formateurs associer à cette formation', 'formAdult' ),
                 'post_type'  => 'formateur',
