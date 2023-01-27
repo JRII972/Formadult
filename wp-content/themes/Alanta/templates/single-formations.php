@@ -111,7 +111,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							<div class="rating__count u-txt-blue-grey "> (<?= $formationNbrAvis?> avis) </div>
 						</a>
 						<div>
-						<img src="<?php echo bloginfo('template_url'); ?>/assets/images/qualiopi.png">
+							<img src="<?php echo bloginfo('template_url'); ?>/assets/images/qualiopi.png">
 						</div>
 						<ul class="product__attributes attributes">
 							<li class="attributes__item "><img
