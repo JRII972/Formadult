@@ -481,3 +481,11 @@ html:not([data-scroll='0']) #main-nav-menu {
 html:not([data-scroll='0']) #menu-components-wrap .components li {
     margin-top: 15px;
 }
+
+figure {
+    height: fit-content;
+}
+
+.widget.widget_text p {
+    margin: 0 !important;
+}
