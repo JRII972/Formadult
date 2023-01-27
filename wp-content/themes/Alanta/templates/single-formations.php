@@ -435,6 +435,10 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							</li><!-- #list-social-icons /-->
 						</div>
 					</div>
+
+					<figure>
+						<img src="<?php echo bloginfo('template_url'); ?>/asset/images/qualiopi.img">
+					</figure>
 					
 						
 				</div>
