@@ -470,6 +470,10 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
     margin-top: 80px;
 }
 
+#user-logged-links li {
+	margin-top: auto;
+}
+
 html:not([data-scroll='0']) #main-nav-menu {
     margin-top: 15px;
 }
