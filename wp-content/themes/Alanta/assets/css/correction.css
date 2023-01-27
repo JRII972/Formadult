@@ -489,3 +489,9 @@ figure {
 .widget.widget_text p {
     margin: 0 !important;
 }
+
+.widget_media_image img {
+    display: block;
+    margin: 0!important;
+    
+}
