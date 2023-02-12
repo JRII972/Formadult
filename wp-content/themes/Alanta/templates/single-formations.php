@@ -533,36 +533,9 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 										<div class="sessions__title">
 											<h2 class="tt-2">Dates et Délais d’accès</h2>
 											<div class="pdb10 u-txt-red">Mise à jour le <?= $MAJ ?></div>
-											<p>Les inscriptions doivent être réalisées au plus tard une semaine avant le début de la formation.</p>
-										</div>
-										
-										
-									</div>
-									<div class="sessions__wrap js-sessions-content">
-										<div class="sessions__content">
-											
-											<ul class="sessions__items" style=" margin: 0;"> 
-												<!-- Liste des sessions  -->
-												<li class="sessions__item" data-ville="A DISTANCE" style="list-style-type: none;"
-													data-startat="2022-08-24 00:00:00" data-endat="2022-11-10 00:00:00">
-													<div class="sessions__cols">
-														<div class="sessions__col">
-															<span class="u-txt-grey bt-flex bt-more ">Date à définir selon la demande et le nombre de participants </span>
-															
-														</div>
-														<div class="sessions__col sessions_text"><span class="u-txt-session-available">12 participants maximum</span></div>
-														<div id="date_inscription" class="sessions__col" style="min-width: fit-content;">
-															<div class="sessions__cta u-txt-center"><span 
-																	class="cta-default cta-default--main" >
-																	<a href="https://projetforma.com/formulaire-dinscription/" style="color: white;">S'inscrire</a></span>
-															</div>
-														</div>
-													</div>
-													
-													
-												</li>
-												
-											</ul>
+											<p>Date à définir selon la demande et le nombre de participants</p>
+											<p>Les inscriptions doivent être réalisées au plus tard une semaine avant le début de la formation </p>
+											<p>12 participants maximum</p>
 										</div>
 									</div>
 								</div>
