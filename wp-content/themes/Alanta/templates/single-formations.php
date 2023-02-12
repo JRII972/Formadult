@@ -422,8 +422,8 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							<div class="product__tabs-header "><span
 									class="u-mb0 u-txt-light u-txt-semibold">Formation à la demande</span></div>
 							<div class="product__tabs-sections">
-								<div class="u-mts u-mbm u-txt-center"><span class="u-txt-grey">Cette thématique
-										vous intéresse ? <br> Nous nous ferons un plaisir d'adapter notre formation a vos besoin !</span></div>
+								<div class="u-mts u-mbm u-txt-center"><span class="u-txt-grey">
+									Ce cours est réalisable en intra-entreprise, dans vos locaux ou dans des salles de cours sélectionnés par nos soins</span></div>
 									<div class="u-mtm u-mbm"
 										>
 										<a href="https://projetforma.com/formulaire-dinscription"
