@@ -132,8 +132,6 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							<?php if(function_exists('taqyeem_get_score')) {
 								taqyeem_get_score(); 
 							} ?>
-
-								
 							</div>
 							<div class="rating__count u-txt-blue-grey "> (<?= $formationNbrAvis?> avis) </div>	
 							<span class="tooltiptext">
@@ -300,16 +298,32 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 													class="icon-euro u-txt-grey-600"></i><span
 													class="u-txt-semibold">Prix</span></div>
 										</div>
-										<div class="width-100-text-right"><span
+										<div class="width-100-text-right">
+											<span
 												class="product__price product__price__inter"
 												id="price-with-margin"><strong><?= $prix_inter ?></strong> &nbsp;HT
-											</span></div>
+											</span>
+										</div>
+										
 									</div>
 								</div>
 							</div>
 							<div class="product__tabs-sections page_speed_150797605">
 								<div class="product__tabs-section page_speed_150797605">
 									<div class="u-txt-center"></div>
+								</div>
+							</div>
+							<div class="product__tabs-sections page_speed_1530629063">
+								<div class="product__tabs-section">
+									<hr class="u-hr">
+									<div class="u-mtm u-mbm" >
+									<h4>Nos Formations :</h4> <br>
+										Votre formation est unique . Pour connaitre nos tarifs et avoir plus de détails , demander un devis personnalisé. 
+									<h4>Inclus  dans nos forfaits : </h4> <br>
+										1 Évaluation de transfert de compétence (dans les 6 mois après la formation )
+									<h4>Option obligatoire non inclus : </h4> <br>
+										1 Journée d’audit  
+									</div>
 								</div>
 							</div>
 							<div class="product__tabs-sections page_speed_1530629063">
