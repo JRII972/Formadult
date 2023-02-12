@@ -65,6 +65,34 @@ $nbr_participant = get_taxonomy_value('formation_nbr_participant');
 $formationNbrAvis = get_comment_count(get_the_ID())['all'];
  get_header() ?>
 
+<style>
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
 
 <div <?php tie_content_column_attr(); ?>>
 
@@ -100,7 +128,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						<h1 class="product__title"> <?= get_the_title() ?> </h1>
 						<h2 class="product__subtitle"><?= $sous_titre ?>
 						</h2>
-						<a href="#avis" class="product__rating rating js-product-scrollto">
+						<a href="#avis" class="product__rating rating js-product-scrollto tooltip">
 							<div class="rating__image">
 							<?php if(function_exists('taqyeem_get_score')) {
 								taqyeem_get_score(); 
@@ -109,6 +137,9 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 								
 							</div>
 							<div class="rating__count u-txt-blue-grey "> (<?= $formationNbrAvis?> avis) </div>
+							<span class="tooltiptext">
+							Les avis figurant ci-dessous sont issus des fiches d’évaluation que remplissent les participants à la fin de la formation. Ils sont ensuite publiés automatiquement si les personnes ont explicitement accepté que nous les diffusions.  
+							</span>
 						</a>
 						
 						<ul class="product__attributes attributes">
