@@ -76,14 +76,14 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 /* Tooltip text */
 .tooltip-avis .tooltiptext {
 	visibility: hidden;
-    max-width: 30%;
+    width: 250px;
     background-color: var(--main-bg-color);
     color: #fff;
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
     position: absolute;
-    z-index: 1;
+    z-index: 25;
     left: 110px;
 }
 
