@@ -315,9 +315,12 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 									</div>
 								</div>
 							</div>
-							<div class="product__tabs-sections " style="padding-top: 0;">
-								<p><b>Option : </b><?= $option_de_tarification ?></p>
-							</div>
+							<?php if ($option_de_tarification != ""): ?>
+								<div class="product__tabs-sections " style="padding-top: 0;">
+									<p><b>Option : </b><?= $option_de_tarification ?></p>
+								</div>
+							<?php endif ?>
+							
 							<div class="product__tabs-sections page_speed_1530629063">
 								<div class="product__tabs-section">
 									<hr class="u-hr">
