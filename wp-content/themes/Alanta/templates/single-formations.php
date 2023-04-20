@@ -317,12 +317,14 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 								<div class="product__tabs-section">
 									<hr class="u-hr">
 									<div class="u-mtm u-mbm" >
-									<h4>Nos Formations :</h4> <br>
-										Votre formation est unique . Pour connaitre nos tarifs et avoir plus de détails , demander un devis personnalisé. 
-									<h4>Inclus  dans nos forfaits : </h4> <br>
-										1 Évaluation de transfert de compétence (dans les 6 mois après la formation )
-									<h4>Option obligatoire non inclus : </h4> <br>
-										1 Journée d’audit  
+									<h4>Nos Formations :</h4> 
+										<p>Votre formation est unique . Pour connaitre nos tarifs et avoir plus de détails , demander un devis personnalisé. </p>
+										<br>
+									<h4>Inclus  dans nos forfaits : </h4> 
+										<p>1 Évaluation de transfert de compétence (dans les 6 mois après la formation )</p>
+										<br>
+									<h4>Option obligatoire non inclus : </h4> 
+										<p>1 Journée d’audit  </p>
 									</div>
 								</div>
 							</div>
