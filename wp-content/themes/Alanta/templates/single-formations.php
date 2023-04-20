@@ -54,6 +54,7 @@ $Description_video = get_taxonomy_value('formation_youtube_description');
 
 $prix_intra = get_taxonomy_value('formation_prix_intra');
 $prix_inter = get_taxonomy_value('formation_prix_inter');
+$option_de_tarification = get_taxonomy_value('formation_option_de_tarification');
 $devis = get_taxonomy_value('formation_devis');
 $reference = get_taxonomy_value('formation_reference');
 $Date = get_taxonomy_value('formation_duree');
@@ -308,10 +309,8 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 									</div>
 								</div>
 							</div>
-							<div class="product__tabs-sections page_speed_150797605">
-								<div class="product__tabs-section page_speed_150797605">
-									<div class="u-txt-center"></div>
-								</div>
+							<div class="product__tabs-sections " style="padding-top: 0;">
+								<p><b>Option : </b><?= $option_de_tarification ?></p>
 							</div>
 							<div class="product__tabs-sections page_speed_1530629063">
 								<div class="product__tabs-section">

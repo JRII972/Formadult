@@ -52,6 +52,13 @@ function Référence_formation( $meta_boxes ) {
                 'std'  => true,
             ],
             [
+                'type'        => 'text',
+                'name'        => esc_html__( 'Option de tarification', 'online-generator' ),
+                'id'          => $prefix . 'option_de_tarification',
+                'desc'        => esc_html__( 'Une ligne de texte ne pas mettre option', 'online-generator' ),
+                'placeholder' => esc_html__( 'Évaluation de transfert', 'online-generator' ),
+            ],
+            [
                 'type' => 'divider',
             ],
             [
