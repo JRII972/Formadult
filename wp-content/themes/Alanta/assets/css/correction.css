@@ -460,10 +460,12 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
     shape-rendering: auto;
 }
 
-
+.main-menu.main-menu-wrap {
+	display: flex
+}
 
 #main-nav-menu {
-    margin-top: 80px;
+    margin: auto;
 }
 
 #menu-components-wrap .components li {
