@@ -468,6 +468,17 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
     margin: auto;
 }
 
+#menu-principal {
+    display: inline-flex;
+}
+
+#menu-principal > li {
+    margin-bottom: .4em;
+    margin-top: 0.3em;
+    height: fit-content;
+    text-align: center;
+}
+
 #menu-components-wrap .components li {
     margin-top: 80px;
 }
@@ -477,7 +488,7 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
 }
 
 html:not([data-scroll='0']) #main-nav-menu {
-    margin-top: 15px;
+    margin-left: 20px !important;
 }
 
 html:not([data-scroll='0']) #menu-components-wrap .components li {
