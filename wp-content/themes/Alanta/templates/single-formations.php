@@ -536,15 +536,26 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 					</div>
 					<div style="margin-top: 30px;"><?php the_content(); ?></div>
 					<div id="dates" class="part-section" style="display: none;">
-						<div class="wrap">
-							<div id="sessions">
-							<?php 
-							
-							foreach(get_post_meta(get_the_ID(), 'formation_date') as $date_formation){
-								echo '<div style="margin-bottom=2em">'.get_the_content( "", "", $date_formation ).'</div>';
-								echo "<hr>";
-							}
-							?>
+    
+						<div class="product__section-trigger js-product-section-trigger"
+						onclick="product_section_trigger(this)" data-href="dates_section">
+						Dates</div>
+							<div id="dates_section" class="product__section js-product-section">
+								<h2 class="tt-2"> Dates de formations </h2>
+								
+								<div class="product__box u-mtl">
+									<div class="wrap">
+										<div id="sessions">
+										<?php 
+										
+										foreach(get_post_meta(get_the_ID(), 'formation_date') as $date_formation){
+											echo '<div style="margin-bottom=2em">'.get_the_content( "", "", $date_formation ).'</div>';
+											echo "<hr>";
+										}
+										?>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
