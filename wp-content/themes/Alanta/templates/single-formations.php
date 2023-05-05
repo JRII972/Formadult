@@ -538,17 +538,13 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 					<div id="dates" class="part-section" style="display: none;">
 						<div class="wrap">
 							<div id="sessions">
-								<div data-xhr-url="/ajax/sessions?productId=369860&amp;" class="sessions js-sessions u-myl">
-									<div class="sessions__head">
-										<div class="sessions__title">
-											<h2 class="tt-2">Dates et Délais d’accès</h2>
-											<div class="pdb10 u-txt-red">Mise à jour le <?= $MAJ ?></div>
-											<p>Date à définir selon la demande et le nombre de participants</p>
-											<p>Les inscriptions doivent être réalisées au plus tard une semaine avant le début de la formation </p>
-											<p>12 participants maximum</p>
-										</div>
-									</div>
-								</div>
+							<?php 
+							
+							foreach(get_post_meta(get_the_ID(), 'formation_date_formation') as $date_formation){
+								echo '<div>'.get_the_content( "", "", $date_formation ).'</div>';
+								echo "<hr>";
+							}
+							?>
 							</div>
 						</div>
 					</div>
