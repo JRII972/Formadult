@@ -550,13 +550,13 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							<div class="product__box u-mtl">
 								<div class="wrap">
 									<div id="sessions">
-									<?php 
-									
-									foreach(get_post_meta(get_the_ID(), 'formation_date') as $date_formation){
-										echo '<div style="margin-bottom=2em">'.get_the_content( "", "", $date_formation ).'</div>';
-										echo "<hr>";
-									}
-									?>
+										<?php 
+										
+										foreach(get_post_meta(get_the_ID(), 'formation_date') as $date_formation){
+											echo '<div style="margin-bottom=2em">'.get_the_content( "", "", $date_formation ).'</div>';
+											echo "<hr>";
+										}
+										?>
 									</div>
 								</div>
 							</div>
@@ -574,21 +574,22 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							<div class="product__box u-mtl">
 								<div class="wrap">
 									<div id="sessions">
-									<div>
-										<p>
-										ProjetForma s’appuie sur une équipe pédagogique composée de formateurs permanents auxquels se joignent des intervenants ponctuels spécialisés experts dans les domaines dans lesquels ils interviennent et issus du monde de l’entreprise avec une pratique avérée des métiers. Ils maîtrisent tous la pédagogie des adultes et de l’alternance ainsi que l’individualisation des apprentissages dans un groupe d’apprenant pour vous accompagner efficacement.
-										</p>
-									</div>
-									<div>
-										
-										<?php 
-										
-										foreach(get_post_meta(get_the_ID(), 'formation_formateur') as $formateur_post){
-											echo '<h3>'.get_the_title($formateur_post ).'</h3>';
-											echo '<div>'.get_the_content( "", "", $formateur_post ).'</div>';
-											echo "<hr>";
-										}
-										?>
+										<div>
+											<p>
+											ProjetForma s’appuie sur une équipe pédagogique composée de formateurs permanents auxquels se joignent des intervenants ponctuels spécialisés experts dans les domaines dans lesquels ils interviennent et issus du monde de l’entreprise avec une pratique avérée des métiers. Ils maîtrisent tous la pédagogie des adultes et de l’alternance ainsi que l’individualisation des apprentissages dans un groupe d’apprenant pour vous accompagner efficacement.
+											</p>
+										</div>
+										<div>
+											
+											<?php 
+											
+											foreach(get_post_meta(get_the_ID(), 'formation_formateur') as $formateur_post){
+												echo '<h3>'.get_the_title($formateur_post ).'</h3>';
+												echo '<div>'.get_the_content( "", "", $formateur_post ).'</div>';
+												echo "<hr>";
+											}
+											?>
+										</div>
 									</div>
 								</div>
 							</div>
