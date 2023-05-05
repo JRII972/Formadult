@@ -568,7 +568,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						<div class="product__section-trigger js-product-section-trigger"
 						onclick="product_section_trigger(this)" data-href="intervenants_section">
 						Intervenants</div>
-						<div id="dates_section" class="product__section js-product-section">
+						<div id="intervenants_section" class="product__section js-product-section">
 							<h2 class="tt-2"> Intervenants dans la formations </h2>
 							
 							<div class="product__box u-mtl">
