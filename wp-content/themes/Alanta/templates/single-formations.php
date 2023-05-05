@@ -539,7 +539,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						<div class="wrap">
 							<div id="sessions">
 							date_formation
-							<?= get_taxonomy_value('formation_date') ?>
+							<?= var_dump(get_taxonomy_value('formation_date')) ?>
 							<?= get_post_meta(get_the_ID(), 'formation_date') ?>
 							<?= get_metadata( 'formations', get_the_ID(), formation_date, false ) ?>
 							test
