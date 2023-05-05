@@ -517,7 +517,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 					</div>
 
 					<figure>
-						<img src="<?php echo bloginfo('template_url'); ?>/assets/images/qualiopi.png">
+						<img src="<?= rwmb_meta( 'formation_image_sup_prix', ['size' => 'medium'] ); ?>">
 					</figure>
 					
 						
