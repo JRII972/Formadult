@@ -801,6 +801,7 @@ do_action( 'TieLabs/post_components' );
 
 </div><!-- .post-components /-->
 <?php comment_form(); ?>
+test
 <?php
 /**
 * TieLabs/after_post_components hook.
