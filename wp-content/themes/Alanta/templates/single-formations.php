@@ -517,7 +517,11 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 					</div>
 
 					<figure>
-						<img src="<?= rwmb_meta( 'formation_image_sup_prix', ['size' => 'medium'] ); ?>">
+						<?php 
+						foreach (rwmb_meta( 'formation_image_sup_prix', ['size' => 'medium'] ) as $key => $value) {
+							echo '<img src="'.$value.'">'
+						}
+						?>
 					</figure>
 					
 						
