@@ -538,11 +538,12 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 					<div id="dates" class="part-section" style="display: none;">
 						<div class="wrap">
 							<div id="sessions">
+							date_formation
 							<?php 
 							
 							foreach(get_post_meta(get_the_ID(), 'formation_date_formation') as $date_formation){
-								echo $formateur_post;
-								echo '<h3>'.get_the_title($formateur_post ).'</h3>';
+								echo $date_formation;
+								echo '<h3>'.get_the_title($date_formation ).'</h3>';
 								echo '<div>'.get_the_content( "", "", $date_formation ).'</div>';
 								echo "<hr>";
 							}
