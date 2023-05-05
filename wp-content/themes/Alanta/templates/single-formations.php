@@ -218,7 +218,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							</div>
 						</div>
 						<?php endif;  ?>
-						<div id="pdf" class="product__tabs-panel js-tab-content is-actives">
+						<!-- <div id="pdf" class="product__tabs-panel js-tab-content is-actives">
 							<div class="product__tabs-header "><span
 									class="u-mb0 u-txt-light u-txt-semibold">PLUS D’INFORMATIONS </span></div>
 							<div class="product__tabs-sections">
@@ -248,7 +248,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 									<?php endif;  ?>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<?php 
 							foreach(get_post_meta(get_the_ID(), 'formation_data') as $formation_data){
 								?>
