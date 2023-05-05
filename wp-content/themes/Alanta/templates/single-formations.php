@@ -541,7 +541,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							date_formation
 							<?php 
 							
-							foreach(get_post_meta(get_the_ID(), 'formation_date_formation') as $date_formation){
+							foreach(get_post_meta(get_the_ID(), 'formation_date') as $date_formation){
 								echo $date_formation;
 								echo '<h3>'.get_the_title($date_formation ).'</h3>';
 								echo '<div>'.get_the_content( "", "", $date_formation ).'</div>';
