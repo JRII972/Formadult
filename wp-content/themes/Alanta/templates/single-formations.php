@@ -509,25 +509,25 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 					<div id="inner-nav-bar">
 						<ul class="inner-nav" >
 							<li id='cu' class="is-active nav-objectif" onclick=" nav_trigger(this)" data-href="cycle">
-								<a href="">
+								<a >
 									<span class="iconco-cible hidden-xs hidden-sm"></span><br class="hidden-xs hidden-sm">
 									Formation                        
 								</a>
 							</li>
 							<li class="nav-programme" onclick=" nav_trigger(this)" data-href="programme">
-								<a href="">
+								<a >
 									<span class="iconco-cible hidden-xs hidden-sm"></span><br class="hidden-xs hidden-sm">
 									Programme                        
 								</a>
 							</li>
 							<li class="nav-date" onclick=" nav_trigger(this)" data-href="dates">
-								<a href="">
+								<a >
 									<span class="iconco-calendar hidden-xs hidden-sm"></span><br class="hidden-xs hidden-sm">
 									Dates
 								</a>
 							</li>
-							<li class="nav-intervenants" onclick=" nav_trigger(this)" data-href="intervenants">
-								<a href="">
+							<li class="nav-intervenants" onclick="nav_trigger(this)" data-href="intervenants">
+								<a >
 									<span class="iconco-intervenant hidden-xs hidden-sm"></span><br class="hidden-xs hidden-sm">
 									Intervenants
 								</a>
