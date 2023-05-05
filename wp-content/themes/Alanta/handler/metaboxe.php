@@ -120,6 +120,14 @@ function Référence_formation( $meta_boxes ) {
                 'field_type' => 'checkbox_list',
             ],
             [
+                'type'       => 'post',
+                'name'       => esc_html__( 'Data', 'formAdult' ),
+                'id'         => $prefix . 'data',
+                'desc'       => esc_html__( 'Liste des informations latérales', 'formAdult' ),
+                'post_type'  => 'donnee-formation',
+                'field_type' => 'checkbox_list',
+            ],
+            [
                 'type'             => 'image',
                 'name'             => esc_html__( 'Image ss prix', 'formAdult' ),
                 'id'               => $prefix . 'image_sup_prix',
