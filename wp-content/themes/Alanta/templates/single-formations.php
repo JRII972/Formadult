@@ -560,17 +560,17 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							ProjetForma s’appuie sur une équipe pédagogique composée de formateurs permanents auxquels se joignent des intervenants ponctuels spécialisés experts dans les domaines dans lesquels ils interviennent et issus du monde de l’entreprise avec une pratique avérée des métiers. Ils maîtrisent tous la pédagogie des adultes et de l’alternance ainsi que l’individualisation des apprentissages dans un groupe d’apprenant pour vous accompagner efficacement.
 							</p>
 						</div>
-						<p>
+						<div>
 							
 							<?php 
 							
 							foreach(get_post_meta(get_the_ID(), 'formation_formateur') as $formateur_post){
 								echo '<h3>'.get_the_title($formateur_post ).'</h3>';
-								echo get_the_content( "", "", $formateur_post );
+								echo '<div>'.get_the_content( "", "", $formateur_post ).'</div>';
 								echo "<hr>";
 							}
 							?>
-						</p>
+						</div>
 					</div>
 					
 					

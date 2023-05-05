@@ -112,6 +112,14 @@ function Référence_formation( $meta_boxes ) {
                 'field_type' => 'checkbox_list',
             ],
             [
+                'type'       => 'post',
+                'name'       => esc_html__( 'Date', 'formAdult' ),
+                'id'         => $prefix . 'date_formation',
+                'desc'       => esc_html__( 'Liste des dates de formation', 'formAdult' ),
+                'post_type'  => 'date-formation',
+                'field_type' => 'select_advanced',
+            ],
+            [
                 'type'             => 'image',
                 'name'             => esc_html__( 'Image ss prix', 'formAdult' ),
                 'id'               => $prefix . 'image_sup_prix',
