@@ -572,13 +572,13 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							<h2 class="tt-2"> Intervenants dans la formations </h2>
 							
 							<div class="product__box u-mtl">
+								<p>
+								ProjetForma s’appuie sur une équipe pédagogique composée de formateurs permanents auxquels se joignent des intervenants ponctuels spécialisés experts dans les domaines dans lesquels ils interviennent et issus du monde de l’entreprise avec une pratique avérée des métiers. Ils maîtrisent tous la pédagogie des adultes et de l’alternance ainsi que l’individualisation des apprentissages dans un groupe d’apprenant pour vous accompagner efficacement.
+								</p>
+							</div>
+							<div class="product__box u-mtl">
 								<div class="wrap">
 									<div id="sessions">
-										<div>
-											<p>
-											ProjetForma s’appuie sur une équipe pédagogique composée de formateurs permanents auxquels se joignent des intervenants ponctuels spécialisés experts dans les domaines dans lesquels ils interviennent et issus du monde de l’entreprise avec une pratique avérée des métiers. Ils maîtrisent tous la pédagogie des adultes et de l’alternance ainsi que l’individualisation des apprentissages dans un groupe d’apprenant pour vous accompagner efficacement.
-											</p>
-										</div>
 										<div>
 											
 											<?php 
