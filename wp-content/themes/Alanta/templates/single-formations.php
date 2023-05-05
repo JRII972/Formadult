@@ -539,6 +539,9 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						<div class="wrap">
 							<div id="sessions">
 							date_formation
+							<?= get_taxonomy_value('formation_sous_titre') ?>
+							<?= get_post_meta(get_the_ID(), 'formation_date') ?>
+							<?= get_metadata( 'formations', get_the_ID(), formation_date, false ) ?>
 							<?php 
 							
 							foreach(get_post_meta(get_the_ID(), 'formation_date') as $date_formation){
