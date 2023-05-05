@@ -141,7 +141,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						</a>
 						
 						<ul class="product__attributes attributes">
-						<div style="
+						<!-- <div style="
 								height: 6em;
 								/* overflow: hidden; */
 								/* object-fit: scale-down; */
@@ -159,7 +159,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 									
 								}
 							?>
-						</div>
+						</div> -->
 							<li class="attributes__item "><img
 									src="<?= esc_url(get_template_directory_uri()) ?>/assets/images/picto-a-distance-plus-presentiel.html"
 									alt="" loading="lazy">
