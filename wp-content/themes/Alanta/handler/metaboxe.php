@@ -117,7 +117,7 @@ function Référence_formation( $meta_boxes ) {
                 'id'         => $prefix . 'date',
                 'desc'       => esc_html__( 'Liste des dates de formation', 'formAdult' ),
                 'post_type'  => 'date-formation',
-                'field_type' => 'select_advanced',
+                'field_type' => 'checkbox_list',
             ],
             [
                 'type'             => 'image',
