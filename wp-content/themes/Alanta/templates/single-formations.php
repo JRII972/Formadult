@@ -141,13 +141,25 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						</a>
 						
 						<ul class="product__attributes attributes">
-						<!-- <div style="
+						<div style="
 								height: 6em;
 								/* overflow: hidden; */
 								/* object-fit: scale-down; */
 							">
-							<img src="https://projetforma.com/wp-content/themes/Alanta/assets/images/qualiopi.png" style="height: 5em;">
-						</div> -->
+							<?php 
+								foreach (rwmb_meta( 'formation_image_sup_prix', ['size' => 'medium'] ) as $value) {
+									echo '<img src="'.$value['url'].'">';
+									foreach($bannerImg as $img){
+										foreach($img as $img2){
+											echo '<img src="'.$img2['url'].'" style="height: 5em;">';
+											break;
+										}
+										break;
+									}
+									
+								}
+							?>
+						</div>
 							<li class="attributes__item "><img
 									src="<?= esc_url(get_template_directory_uri()) ?>/assets/images/picto-a-distance-plus-presentiel.html"
 									alt="" loading="lazy">
@@ -516,21 +528,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						</div>
 					</div>
 
-					<figure>
-						<?php 
-						foreach (rwmb_meta( 'formation_image_sup_prix', ['size' => 'medium'] ) as $value) {
-							echo '<img src="'.$value['url'].'">';
-							foreach($bannerImg as $img){
-								foreach($img as $img2){
-									echo '<img src="'.$img2['url'].'">';
-									break;
-								}
-								break;
-							 }
-							
-						}
-						?>
-					</figure>
+					
 					
 						
 				</div>
@@ -801,7 +799,6 @@ do_action( 'TieLabs/post_components' );
 
 </div><!-- .post-components /-->
 <?php comment_form(); ?>
-test
 <?php
 /**
 * TieLabs/after_post_components hook.
