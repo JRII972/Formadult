@@ -249,7 +249,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 								</div>
 							</div>
 						</div>
-						<php 
+						<?php 
 							foreach(get_post_meta(get_the_ID(), 'formation_data') as $formation_data){
 								?>
 								<div id="<?= get_the_title($formation_data ) ?>" class="product__tabs-panel js-tab-content is-actives">
