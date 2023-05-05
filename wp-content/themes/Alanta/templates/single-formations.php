@@ -128,19 +128,22 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						<h1 class="product__title"> <?= get_the_title() ?> </h1>
 						<h2 class="product__subtitle"><?= $sous_titre ?>
 						</h2>
-						<a href="#avis" class="product__rating rating js-product-scrollto tooltip-avis">
-							<div class="rating__image">
-							<?php if(function_exists('taqyeem_get_score')) {
-								taqyeem_get_score(); 
-							} ?>
-							</div>
-							<div class="rating__count u-txt-blue-grey "> (<?= $formationNbrAvis?> avis) </div>	
-							<span class="tooltiptext">
-							Les avis figurant ci-dessous sont issus des fiches d’évaluation que remplissent les participants à la fin de la formation. Ils sont ensuite publiés automatiquement si les personnes ont explicitement accepté que nous les diffusions.  
-							</span>
-						</a>
+						
 						
 						<ul class="product__attributes attributes">
+							<li class="attributes__item " >
+								<a href="#avis" class="product__rating rating js-product-scrollto tooltip-avis">
+									<div class="rating__image">
+									<?php if(function_exists('taqyeem_get_score')) {
+										taqyeem_get_score(); 
+									} ?>
+									</div>
+									<div class="rating__count u-txt-blue-grey "> (<?= $formationNbrAvis?> avis) </div>	
+									<span class="tooltiptext">
+									Les avis figurant ci-dessous sont issus des fiches d’évaluation que remplissent les participants à la fin de la formation. Ils sont ensuite publiés automatiquement si les personnes ont explicitement accepté que nous les diffusions.  
+									</span>
+								</a>
+							</li>
 						<!-- <div style="
 								height: 6em;
 								/* overflow: hidden; */
