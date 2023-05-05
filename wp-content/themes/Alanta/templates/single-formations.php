@@ -258,7 +258,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 									<div class="product__tabs-sections">
 										<div class="u-mts u-mbm u-txt-center">
 											<span class="u-txt-grey">
-											<?= get_the_content($formation_data ) ?>
+											<?= get_the_content( "", "",$formation_data ) ?>
 											</span>	
 										</div>
 									</div>
