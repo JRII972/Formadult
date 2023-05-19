@@ -336,7 +336,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 										<div class="u-txt-right">
 											<div class="u-txt-icon"><i
 													class="icon-euro u-txt-grey-600"></i><span
-													class="u-txt-semibold">Prix</span></div>
+													class="u-txt-semibold">A partir de :</span></div>
 										</div>
 										<div class="width-100-text-right">
 											<span
@@ -354,6 +354,21 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 								</div>
 							<?php endif ?>
 							
+							<?php 
+							foreach(get_post_meta(get_the_ID(), 'formation_subdata') as $formation_data){
+								?>
+								<div id="<?= get_the_title($formation_data ) ?>" class="product__tabs-sections ">
+									<div class="product__tabs-section">
+										<hr class="u-hr">
+										<div class="u-mtm u-mbm" >
+											<?= get_the_content( "", "",$formation_data ) ?>
+										</div>
+									</div>
+								</div>
+
+								<?php
+							}
+							?>
 							<div class="product__tabs-sections page_speed_1530629063">
 								<div class="product__tabs-section">
 									<hr class="u-hr">
