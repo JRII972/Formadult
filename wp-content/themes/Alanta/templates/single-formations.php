@@ -591,7 +591,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 						</div>
 
 						<div id="dates_section" class="product__section js-product-section">
-							<h2 class="tt-2"> Dates de formations </h2>
+							<h2 class="tt-2"> Dates délais d'accès aux sessions de formation</h2>
 							
 							<div class="product__box u-mtl">
 								<div class="wrap">
