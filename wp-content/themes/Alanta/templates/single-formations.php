@@ -369,7 +369,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 								<?php
 							}
 							?>
-							<div class="product__tabs-sections page_speed_1530629063">
+							<!-- <div class="product__tabs-sections page_speed_1530629063">
 								<div class="product__tabs-section">
 									<hr class="u-hr">
 									<div class="u-mtm u-mbm" >
@@ -383,7 +383,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 										<p>1 Journée d’audit  </p>
 									</div>
 								</div>
-							</div>
+							</div> -->
 							<div class="product__tabs-sections page_speed_1530629063">
 								<div class="product__tabs-section">
 									<hr class="u-hr">
