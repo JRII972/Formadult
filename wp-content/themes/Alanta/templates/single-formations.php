@@ -443,7 +443,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 										<div class="width-100-text-right">
 											<span
 												class="product__price product__price__inter"
-												id="price-with-margin"><strong><?= $prix_inter ?></strong> &nbsp;HT
+												id="price-with-margin"><strong><?= $prix_intra ?></strong> &nbsp;HT
 											</span>
 										</div>
 										
