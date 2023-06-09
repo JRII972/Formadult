@@ -407,7 +407,7 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 							<div class="product__tabs-header "><span
 									class="u-mb0 u-txt-light u-txt-semibold">
 									EN PRESENTIEL CHEZ VOUS</span></div>
-							<div class="product__tabs-sections page_speed_574825364">
+									<div class="product__tabs-sections page_speed_574825364">
 								<div class="product__tabs-section">
 									<div class="flex-container no-compensation between-xs">
 										<div>
@@ -435,28 +435,57 @@ $formationNbrAvis = get_comment_count(get_the_ID())['all'];
 								<hr class="u-hr">
 								<div class="product__tabs-section">
 									<div class="flex-container no-compensation middle-xs between-xs">
-										
 										<div class="u-txt-right">
 											<div class="u-txt-icon"><i
 													class="icon-euro u-txt-grey-600"></i><span
-													class="u-txt-semibold"> Tarif - <a
-														href="#intraPackage" data-modal-open=""
-														class="u-txt-grey">Prix total / Personne </a></span></div>
+													class="u-txt-semibold">A partir de :</span></div>
 										</div>
-										<div class="width-100-text-right"><span
+										<div class="width-100-text-right">
+											<span
 												class="product__price product__price__inter"
-												id="price-with-margin"><strong><?= $prix_intra ?></strong> &nbsp;HT/Perso
-											</span></div>
-
+												id="price-with-margin"><strong><?= $prix_inter ?></strong> &nbsp;HT
+											</span>
+										</div>
+										
 									</div>
 								</div>
-								
 							</div>
-							<div class="product__tabs-sections page_speed_150797605">
-								<div class="product__tabs-section page_speed_150797605">
-									<div class="u-txt-center"></div>
+							<?php if ($option_de_tarification != ""): ?>
+								<div class="product__tabs-sections " style="padding-top: 0;">
+									<p><b>Option : </b><?= $option_de_tarification ?></p>
 								</div>
-							</div>
+							<?php endif ?>
+							
+							<?php 
+							foreach(get_post_meta(get_the_ID(), 'formation_subdata') as $formation_data){
+								?>
+								<div id="<?= get_the_title($formation_data ) ?>" class="product__tabs-sections ">
+									<div class="product__tabs-section">
+										<hr class="u-hr">
+										<div class="u-mtm u-mbm" >
+											<?= get_the_content( "", "",$formation_data ) ?>
+										</div>
+									</div>
+								</div>
+
+								<?php
+							}
+							?>
+							<!-- <div class="product__tabs-sections page_speed_1530629063">
+								<div class="product__tabs-section">
+									<hr class="u-hr">
+									<div class="u-mtm u-mbm" >
+									<h4>Nos Formations :</h4> 
+										<p>Votre formation est unique . Pour connaitre nos tarifs et avoir plus de détails , demander un devis personnalisé. </p>
+										<br>
+									<h4>Inclus  dans nos forfaits : </h4> 
+										<p>1 Évaluation de transfert de compétence (dans les 6 mois après la formation )</p>
+										<br>
+									<h4>Option obligatoire non inclus : </h4> 
+										<p>1 Journée d’audit  </p>
+									</div>
+								</div>
+							</div> -->
 							<div class="product__tabs-sections page_speed_1530629063">
 								<div class="product__tabs-section">
 									<hr class="u-hr">
